@@ -32,9 +32,9 @@
     },
     {
       "lbl": "✨ Bester Animationsfilm",
-      "name": "KPop Demon Hunters",
-      "film": "Kang & Appelhans",
-      "pct": 42
+      "name": "TBD — Feld offen",
+      "film": "2026er Produktionen noch nicht bekannt",
+      "pct": 30
     },
     {
       "lbl": "🌍 Bester Intl. Film",
@@ -3786,40 +3786,6 @@
         "Bester Hauptdarsteller (White)"
       ],
       "status": "upcoming"
-    },
-    {
-      "title": "KPop Demon Hunters",
-      "year": 2026,
-      "director": "Maggie Kang & Chris Appelhans",
-      "studio": "Sony Pictures Animation",
-      "release": "Bereits erschienen (Sommer 2026)",
-      "runtime": "101 Min.",
-      "language": "Englisch / Koreanisch",
-      "genre": [
-        "Animation",
-        "Musical",
-        "Fantasy"
-      ],
-      "synopsis": "Eine K-Pop-Girlgroup entdeckt, dass ihre Musik Dämonen bannt — und beginnt eine Doppelexistenz als Superstars und Geisterjägerinnen. Animationstechnisch revolutionär: hybride Mischung aus K-Pop-MV-Ästhetik und westlicher Animation.",
-      "cast": [
-        "Ahn Hyo-seop",
-        "Han So-hee",
-        "Chaeyeon"
-      ],
-      "crew": {
-        "Regie": "Maggie Kang & Chris Appelhans",
-        "Musik": "Ian Eisendrath · Ejae · Teddy"
-      },
-      "rt_critics": 82,
-      "rt_audience": 91,
-      "imdb": 7.4,
-      "metacritic": null,
-      "note": "98th Oscars Gewinner: Bester Animationsfilm + Bester Song (»Golden«)",
-      "awards_predicted": [
-        "Bester Animationsfilm",
-        "Bester Originalsong"
-      ],
-      "status": "released"
     },
     {
       "title": "Hope",
