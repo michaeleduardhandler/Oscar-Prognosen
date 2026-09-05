@@ -1,641 +1,3885 @@
 {
   "meta": {
-    "lastUpdated": "2026-08-30",
+    "lastUpdated": "2026-09-05",
     "ceremony": "99. Academy Awards",
     "ceremonyDate": "2027-03-14T19:00:00-08:00",
-    "note": "Stand: Vor Venice/TIFF 2026. Wöchentliche Wettquoten-Prüfung via Claude Cowork."
+    "note": "Bereinigt: Alle 98th-Oscar-Nominees (2025er Filme) aus den 2027-Prognosen entfernt. Kurzfilm- und Dok-Kategorien: Feld für 2026er Produktionen noch offen."
   },
-
   "hero": [
-    { "lbl": "🎬 Bester Film",        "name": "The Odyssey",        "film": "Nolan · Universal",  "pct": 92 },
-    { "lbl": "🎥 Beste Regie",        "name": "Christopher Nolan",  "film": "The Odyssey",         "pct": 88 },
-    { "lbl": "🎭 Bester Hauptdarst.", "name": "Tom Cruise",          "film": "Digger",              "pct": 85 },
-    { "lbl": "🌟 Beste Hauptdarst.",  "name": "Julianne Moore",      "film": "The Debut · A24",     "pct": 90 },
-    { "lbl": "✨ Bester Animationsfilm","name": "KPop Demon Hunters", "film": "Kang & Appelhans",    "pct": 42 },
-    { "lbl": "🌍 Bester Intl. Film",  "name": "Fjord",               "film": "Mungiu · Neon",       "pct": 72 }
+    {
+      "lbl": "🎬 Bester Film",
+      "name": "The Odyssey",
+      "film": "Nolan · Universal",
+      "pct": 94
+    },
+    {
+      "lbl": "🎥 Beste Regie",
+      "name": "Christopher Nolan",
+      "film": "The Odyssey",
+      "pct": 88
+    },
+    {
+      "lbl": "🎭 Bester Hauptdarst.",
+      "name": "Tom Cruise",
+      "film": "Digger",
+      "pct": 85
+    },
+    {
+      "lbl": "🌟 Beste Hauptdarst.",
+      "name": "Julianne Moore",
+      "film": "The Debut · A24",
+      "pct": 90
+    },
+    {
+      "lbl": "✨ Bester Animationsfilm",
+      "name": "KPop Demon Hunters",
+      "film": "Kang & Appelhans",
+      "pct": 42
+    },
+    {
+      "lbl": "🌍 Bester Intl. Film",
+      "name": "Fjord",
+      "film": "Mungiu · Neon",
+      "pct": 72
+    }
   ],
-
   "categories": [
     {
-      "emoji": "🎬", "de": "Bester Film", "fav": "The Odyssey", "top": 15,
+      "emoji": "🎬",
+      "de": "Bester Film",
+      "fav": "The Odyssey",
+      "top": 15,
       "noms": [
-        { "n": "The Odyssey",           "f": "Nolan · Universal",         "p": 92 },
-        { "n": "Dune: Part Three",      "f": "Villeneuve · Warner Bros.", "p": 82 },
-        { "n": "Digger",                "f": "Iñárritu · Warner Bros.",   "p": 78 },
-        { "n": "Wild Horse Nine",       "f": "McDonagh · Searchlight",    "p": 75 },
-        { "n": "The Debut",             "f": "Eisenberg · A24",            "p": 72 },
-        { "n": "Project Hail Mary",     "f": "Lord+Miller · Amazon MGM",  "p": 65 },
-        { "n": "The Social Reckoning",  "f": "Sorkin · Sony",             "p": 60 },
-        { "n": "Fjord",                 "f": "Mungiu · Neon",             "p": 55 },
-        { "n": "Michael",               "f": "Fuqua · Lionsgate",         "p": 48 },
-        { "n": "Fatherland",            "f": "Pawlikowski · MUBI",        "p": 42 },
-        { "n": "La Bola Negra",         "f": "Ambrossi+Calvo · Netflix",  "p": 38 },
-        { "n": "All of a Sudden",       "f": "Hamaguchi · Neon",          "p": 35 },
-        { "n": "Disclosure Day",        "f": "Spielberg · Universal",     "p": 32 },
-        { "n": "Josephine",             "f": "Sumerian",                   "p": 28 },
-        { "n": "Being Heumann",         "f": "Apple",                      "p": 22 }
+        {
+          "n": "The Odyssey",
+          "f": "Nolan · Universal",
+          "p": 94
+        },
+        {
+          "n": "Dune: Part Three",
+          "f": "Villeneuve · Warner Bros.",
+          "p": 82
+        },
+        {
+          "n": "Digger",
+          "f": "Iñárritu · Warner Bros.",
+          "p": 78
+        },
+        {
+          "n": "Wild Horse Nine",
+          "f": "McDonagh · Searchlight",
+          "p": 75
+        },
+        {
+          "n": "The Debut",
+          "f": "Eisenberg · A24",
+          "p": 72
+        },
+        {
+          "n": "Project Hail Mary",
+          "f": "Lord+Miller · Amazon MGM",
+          "p": 65
+        },
+        {
+          "n": "The Social Reckoning",
+          "f": "Sorkin · Sony",
+          "p": 60
+        },
+        {
+          "n": "Fjord",
+          "f": "Mungiu · Neon",
+          "p": 55
+        },
+        {
+          "n": "Michael",
+          "f": "Fuqua · Lionsgate",
+          "p": 48
+        },
+        {
+          "n": "Fatherland",
+          "f": "Pawlikowski · MUBI",
+          "p": 42
+        },
+        {
+          "n": "La Bola Negra",
+          "f": "Ambrossi+Calvo · Netflix",
+          "p": 38
+        },
+        {
+          "n": "All of a Sudden",
+          "f": "Hamaguchi · Neon",
+          "p": 35
+        },
+        {
+          "n": "Disclosure Day",
+          "f": "Spielberg · Universal",
+          "p": 32
+        },
+        {
+          "n": "Josephine",
+          "f": "Sumerian",
+          "p": 28
+        },
+        {
+          "n": "Being Heumann",
+          "f": "Apple",
+          "p": 22
+        }
       ]
     },
     {
-      "emoji": "🎥", "de": "Beste Regie", "fav": "Christopher Nolan", "top": 10,
+      "emoji": "🎥",
+      "de": "Beste Regie",
+      "fav": "Christopher Nolan",
+      "top": 10,
       "noms": [
-        { "n": "Christopher Nolan",     "f": "The Odyssey",               "p": 88 },
-        { "n": "A.G. Iñárritu",         "f": "Digger",                     "p": 82 },
-        { "n": "Denis Villeneuve",      "f": "Dune: Part Three",          "p": 75 },
-        { "n": "Cristian Mungiu",       "f": "Fjord",                      "p": 72 },
-        { "n": "Martin McDonagh",       "f": "Wild Horse Nine",           "p": 65 },
-        { "n": "Jesse Eisenberg",       "f": "The Debut",                  "p": 60 },
-        { "n": "Paweł Pawlikowski",     "f": "Fatherland",                 "p": 58 },
-        { "n": "Ryûsuke Hamaguchi",     "f": "All of a Sudden",           "p": 50 },
-        { "n": "Aaron Sorkin",          "f": "The Social Reckoning",      "p": 42 },
-        { "n": "Lord & Miller",         "f": "Project Hail Mary",         "p": 35 }
+        {
+          "n": "Christopher Nolan",
+          "f": "The Odyssey",
+          "p": 88
+        },
+        {
+          "n": "A.G. Iñárritu",
+          "f": "Digger",
+          "p": 82
+        },
+        {
+          "n": "Denis Villeneuve",
+          "f": "Dune: Part Three",
+          "p": 75
+        },
+        {
+          "n": "Cristian Mungiu",
+          "f": "Fjord",
+          "p": 72
+        },
+        {
+          "n": "Martin McDonagh",
+          "f": "Wild Horse Nine",
+          "p": 65
+        },
+        {
+          "n": "Jesse Eisenberg",
+          "f": "The Debut",
+          "p": 60
+        },
+        {
+          "n": "Paweł Pawlikowski",
+          "f": "Fatherland",
+          "p": 58
+        },
+        {
+          "n": "Ryûsuke Hamaguchi",
+          "f": "All of a Sudden",
+          "p": 50
+        },
+        {
+          "n": "Aaron Sorkin",
+          "f": "The Social Reckoning",
+          "p": 42
+        },
+        {
+          "n": "Lord & Miller",
+          "f": "Project Hail Mary",
+          "p": 35
+        }
       ]
     },
     {
-      "emoji": "🎭", "de": "Bester Hauptdarsteller", "fav": "Tom Cruise", "top": 10,
+      "emoji": "🎭",
+      "de": "Bester Hauptdarsteller",
+      "fav": "Tom Cruise",
+      "top": 10,
       "noms": [
-        { "n": "Tom Cruise",             "f": "Digger",                    "p": 85 },
-        { "n": "John Malkovich",         "f": "Wild Horse Nine",          "p": 78 },
-        { "n": "Ryan Gosling",           "f": "Project Hail Mary",        "p": 72 },
-        { "n": "Matt Damon",             "f": "The Odyssey",              "p": 68 },
-        { "n": "Sebastian Stan",         "f": "Fjord",                     "p": 65 },
-        { "n": "Timothée Chalamet",      "f": "Dune: Part Three",         "p": 60 },
-        { "n": "Jaafar Jackson",         "f": "Michael",                   "p": 52 },
-        { "n": "Jeremy Strong",          "f": "The Social Reckoning",     "p": 48 },
-        { "n": "Guitarricadelafuente",   "f": "La Bola Negra",            "p": 42 },
-        { "n": "Sam Rockwell",           "f": "Wild Horse Nine",          "p": 38 }
+        {
+          "n": "Tom Cruise",
+          "f": "Digger",
+          "p": 85
+        },
+        {
+          "n": "John Malkovich",
+          "f": "Wild Horse Nine",
+          "p": 78
+        },
+        {
+          "n": "Ryan Gosling",
+          "f": "Project Hail Mary",
+          "p": 72
+        },
+        {
+          "n": "Matt Damon",
+          "f": "The Odyssey",
+          "p": 68
+        },
+        {
+          "n": "Sebastian Stan",
+          "f": "Fjord",
+          "p": 65
+        },
+        {
+          "n": "Timothée Chalamet",
+          "f": "Dune: Part Three",
+          "p": 60
+        },
+        {
+          "n": "Jaafar Jackson",
+          "f": "Michael",
+          "p": 52
+        },
+        {
+          "n": "Jeremy Strong",
+          "f": "The Social Reckoning",
+          "p": 48
+        },
+        {
+          "n": "Guitarricadelafuente",
+          "f": "La Bola Negra",
+          "p": 42
+        },
+        {
+          "n": "Sam Rockwell",
+          "f": "Wild Horse Nine",
+          "p": 38
+        }
       ]
     },
     {
-      "emoji": "🌟", "de": "Beste Hauptdarstellerin", "fav": "Julianne Moore", "top": 10,
+      "emoji": "🌟",
+      "de": "Beste Hauptdarstellerin",
+      "fav": "Julianne Moore",
+      "top": 10,
       "noms": [
-        { "n": "Julianne Moore",         "f": "The Debut",                 "p": 90 },
-        { "n": "Renate Reinsve",         "f": "Fjord",                     "p": 78 },
-        { "n": "Mikey Madison",          "f": "The Social Reckoning",     "p": 70 },
-        { "n": "Sandra Hüller",          "f": "Fatherland",                "p": 68 },
-        { "n": "Penélope Cruz",          "f": "La Bola Negra",            "p": 60 },
-        { "n": "Zendaya",                "f": "Dune: Part Three",         "p": 52 },
-        { "n": "Virginie Efira",         "f": "All of a Sudden",          "p": 50 },
-        { "n": "Emily Blunt",            "f": "Disclosure Day",           "p": 42 },
-        { "n": "Gemma Chan",             "f": "Josephine",                 "p": 35 },
-        { "n": "Florence Pugh",          "f": "Dune: Part Three",         "p": 30 }
+        {
+          "n": "Julianne Moore",
+          "f": "The Debut",
+          "p": 90
+        },
+        {
+          "n": "Renate Reinsve",
+          "f": "Fjord",
+          "p": 78
+        },
+        {
+          "n": "Mikey Madison",
+          "f": "The Social Reckoning",
+          "p": 70
+        },
+        {
+          "n": "Sandra Hüller",
+          "f": "Fatherland",
+          "p": 68
+        },
+        {
+          "n": "Penélope Cruz",
+          "f": "La Bola Negra",
+          "p": 60
+        },
+        {
+          "n": "Zendaya",
+          "f": "Dune: Part Three",
+          "p": 52
+        },
+        {
+          "n": "Virginie Efira",
+          "f": "All of a Sudden",
+          "p": 50
+        },
+        {
+          "n": "Emily Blunt",
+          "f": "Disclosure Day",
+          "p": 42
+        },
+        {
+          "n": "Gemma Chan",
+          "f": "Josephine",
+          "p": 35
+        },
+        {
+          "n": "Florence Pugh",
+          "f": "Dune: Part Three",
+          "p": 30
+        }
       ]
     },
     {
-      "emoji": "🃏", "de": "Bester Nebendarsteller", "fav": "Paul Giamatti", "top": 10,
+      "emoji": "🃏",
+      "de": "Bester Nebendarsteller",
+      "fav": "Paul Giamatti",
+      "top": 10,
       "noms": [
-        { "n": "Paul Giamatti",          "f": "The Debut",                 "p": 85 },
-        { "n": "Sam Rockwell",           "f": "Wild Horse Nine",          "p": 78 },
-        { "n": "Tom Holland",            "f": "The Odyssey",              "p": 68 },
-        { "n": "Colman Domingo",         "f": "Michael",                   "p": 65 },
-        { "n": "Jesse Plemons",          "f": "Digger",                    "p": 60 },
-        { "n": "Jeremy Strong",          "f": "The Social Reckoning",     "p": 55 },
-        { "n": "Javier Bardem",          "f": "Dune: Part Three",         "p": 52 },
-        { "n": "Jeremy Allen White",     "f": "The Social Reckoning",     "p": 48 },
-        { "n": "Robert Pattinson",       "f": "The Odyssey",              "p": 45 },
-        { "n": "Bill Burr",              "f": "The Social Reckoning",     "p": 38 }
+        {
+          "n": "Paul Giamatti",
+          "f": "The Debut",
+          "p": 85
+        },
+        {
+          "n": "Sam Rockwell",
+          "f": "Wild Horse Nine",
+          "p": 78
+        },
+        {
+          "n": "Tom Holland",
+          "f": "The Odyssey",
+          "p": 68
+        },
+        {
+          "n": "Colman Domingo",
+          "f": "Michael",
+          "p": 65
+        },
+        {
+          "n": "Jesse Plemons",
+          "f": "Digger",
+          "p": 60
+        },
+        {
+          "n": "Jeremy Strong",
+          "f": "The Social Reckoning",
+          "p": 55
+        },
+        {
+          "n": "Javier Bardem",
+          "f": "Dune: Part Three",
+          "p": 52
+        },
+        {
+          "n": "Jeremy Allen White",
+          "f": "The Social Reckoning",
+          "p": 48
+        },
+        {
+          "n": "Robert Pattinson",
+          "f": "The Odyssey",
+          "p": 45
+        },
+        {
+          "n": "Bill Burr",
+          "f": "The Social Reckoning",
+          "p": 38
+        }
       ]
     },
     {
-      "emoji": "💫", "de": "Beste Nebendarstellerin", "fav": "Anne Hathaway", "top": 10,
+      "emoji": "💫",
+      "de": "Beste Nebendarstellerin",
+      "fav": "Anne Hathaway",
+      "top": 10,
       "noms": [
-        { "n": "Anne Hathaway",          "f": "The Odyssey",              "p": 80 },
-        { "n": "Parker Posey",           "f": "Wild Horse Nine",          "p": 72 },
-        { "n": "M. di Girolamo",         "f": "Wild Horse Nine",          "p": 68 },
-        { "n": "Sandra Hüller",          "f": "Digger",                    "p": 65 },
-        { "n": "Anya Taylor-Joy",        "f": "Dune: Part Three",         "p": 60 },
-        { "n": "Penélope Cruz",          "f": "La Bola Negra",            "p": 55 },
-        { "n": "Lupita Nyong'o",         "f": "The Odyssey",              "p": 52 },
-        { "n": "Halle Bailey",           "f": "The Debut",                 "p": 48 },
-        { "n": "Florence Pugh",          "f": "Dune: Part Three",         "p": 45 },
-        { "n": "Emma D'Arcy",            "f": "Digger",                    "p": 38 }
+        {
+          "n": "Anne Hathaway",
+          "f": "The Odyssey",
+          "p": 80
+        },
+        {
+          "n": "Parker Posey",
+          "f": "Wild Horse Nine",
+          "p": 72
+        },
+        {
+          "n": "M. di Girolamo",
+          "f": "Wild Horse Nine",
+          "p": 68
+        },
+        {
+          "n": "Sandra Hüller",
+          "f": "Digger",
+          "p": 65
+        },
+        {
+          "n": "Anya Taylor-Joy",
+          "f": "Dune: Part Three",
+          "p": 60
+        },
+        {
+          "n": "Penélope Cruz",
+          "f": "La Bola Negra",
+          "p": 55
+        },
+        {
+          "n": "Lupita Nyong'o",
+          "f": "The Odyssey",
+          "p": 52
+        },
+        {
+          "n": "Halle Bailey",
+          "f": "The Debut",
+          "p": 48
+        },
+        {
+          "n": "Florence Pugh",
+          "f": "Dune: Part Three",
+          "p": 45
+        },
+        {
+          "n": "Emma D'Arcy",
+          "f": "Digger",
+          "p": 38
+        }
       ]
     },
     {
-      "emoji": "✍️", "de": "Bestes Originaldrehbuch", "fav": "Jesse Eisenberg", "top": 10,
+      "emoji": "✍️",
+      "de": "Bestes Originaldrehbuch",
+      "fav": "Jesse Eisenberg",
+      "top": 10,
       "noms": [
-        { "n": "Jesse Eisenberg",        "f": "The Debut",                 "p": 80 },
-        { "n": "A.G. Iñárritu et al.",   "f": "Digger",                    "p": 75 },
-        { "n": "Cristian Mungiu",        "f": "Fjord",                     "p": 70 },
-        { "n": "Martin McDonagh",        "f": "Wild Horse Nine",          "p": 65 },
-        { "n": "Aaron Sorkin",           "f": "The Social Reckoning",     "p": 60 },
-        { "n": "Ambrossi & Calvo",       "f": "La Bola Negra",            "p": 55 },
-        { "n": "R. Hamaguchi",           "f": "All of a Sudden",          "p": 48 },
-        { "n": "Pawlikowski & Handloeg.","f": "Fatherland",                "p": 42 },
-        { "n": "Spielberg",              "f": "Disclosure Day",           "p": 35 },
-        { "n": "TBD",                    "f": "nach Venice/TIFF",         "p": 25 }
+        {
+          "n": "Jesse Eisenberg",
+          "f": "The Debut",
+          "p": 80
+        },
+        {
+          "n": "A.G. Iñárritu et al.",
+          "f": "Digger",
+          "p": 75
+        },
+        {
+          "n": "Cristian Mungiu",
+          "f": "Fjord",
+          "p": 70
+        },
+        {
+          "n": "Martin McDonagh",
+          "f": "Wild Horse Nine",
+          "p": 65
+        },
+        {
+          "n": "Aaron Sorkin",
+          "f": "The Social Reckoning",
+          "p": 60
+        },
+        {
+          "n": "Ambrossi & Calvo",
+          "f": "La Bola Negra",
+          "p": 55
+        },
+        {
+          "n": "R. Hamaguchi",
+          "f": "All of a Sudden",
+          "p": 48
+        },
+        {
+          "n": "Pawlikowski & Handloeg.",
+          "f": "Fatherland",
+          "p": 42
+        },
+        {
+          "n": "Spielberg",
+          "f": "Disclosure Day",
+          "p": 35
+        },
+        {
+          "n": "TBD",
+          "f": "nach Venice/TIFF",
+          "p": 25
+        }
       ]
     },
     {
-      "emoji": "📖", "de": "Bestes adaptiertes Drehbuch", "fav": "Christopher Nolan", "top": 10,
+      "emoji": "📖",
+      "de": "Bestes adaptiertes Drehbuch",
+      "fav": "Christopher Nolan",
+      "top": 10,
       "noms": [
-        { "n": "Christopher Nolan",      "f": "The Odyssey (Homer)",      "p": 82 },
-        { "n": "Villeneuve & Vaughan",   "f": "Dune: Part Three",         "p": 78 },
-        { "n": "Drew Goddard",           "f": "Project Hail Mary",        "p": 72 },
-        { "n": "Pawlikowski & Handloeg.","f": "Fatherland",                "p": 65 },
-        { "n": "John Logan",             "f": "Michael",                   "p": 58 },
-        { "n": "R. Hamaguchi",           "f": "All of a Sudden",          "p": 52 },
-        { "n": "Ambrossi & Calvo",       "f": "La Bola Negra",            "p": 48 },
-        { "n": "Aaron Sorkin",           "f": "The Social Reckoning",     "p": 45 },
-        { "n": "TBD",                    "f": "Being Heumann",            "p": 38 },
-        { "n": "TBD",                    "f": "Josephine",                 "p": 28 }
+        {
+          "n": "Christopher Nolan",
+          "f": "The Odyssey (Homer)",
+          "p": 82
+        },
+        {
+          "n": "Villeneuve & Vaughan",
+          "f": "Dune: Part Three",
+          "p": 78
+        },
+        {
+          "n": "Drew Goddard",
+          "f": "Project Hail Mary",
+          "p": 72
+        },
+        {
+          "n": "Pawlikowski & Handloeg.",
+          "f": "Fatherland",
+          "p": 65
+        },
+        {
+          "n": "John Logan",
+          "f": "Michael",
+          "p": 58
+        },
+        {
+          "n": "R. Hamaguchi",
+          "f": "All of a Sudden",
+          "p": 52
+        },
+        {
+          "n": "Ambrossi & Calvo",
+          "f": "La Bola Negra",
+          "p": 48
+        },
+        {
+          "n": "Aaron Sorkin",
+          "f": "The Social Reckoning",
+          "p": 45
+        },
+        {
+          "n": "TBD",
+          "f": "Being Heumann",
+          "p": 38
+        },
+        {
+          "n": "TBD",
+          "f": "Josephine",
+          "p": 28
+        }
       ]
     },
     {
-      "emoji": "✨", "de": "Bester Animationsfilm", "fav": "Offen — TBD nach Venice/TIFF", "top": 10,
+      "emoji": "✨",
+      "de": "Bester Animationsfilm",
+      "fav": "Offen — Feld für 2026er Produktionen",
+      "top": 10,
       "noms": [
-        { "n": "KPop Demon Hunters",     "f": "Kang & Appelhans",         "p": 42 },
-        { "n": "Zootopia 2",             "f": "Disney Animation",         "p": 30 },
-        { "n": "Elio",                   "f": "Pixar",                     "p": 28 },
-        { "n": "TBD — Venice",           "f": "Festival Sep. 2026",       "p": 25 },
-        { "n": "TBD — TIFF",             "f": "Festival Sep. 2026",       "p": 20 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 18 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 15 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 12 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 10 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p":  8 }
+        {
+          "n": "TBD — Festival-Frontrunner",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 30
+        },
+        {
+          "n": "TBD — Venice/TIFF-Entdeckung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 22
+        },
+        {
+          "n": "TBD — Studio-Kandidat",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 18
+        },
+        {
+          "n": "TBD — Indie-Überraschung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 15
+        },
+        {
+          "n": "TBD — Internationaler Film",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 13
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 10
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 8
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 6
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 5
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 4
+        }
       ]
     },
     {
-      "emoji": "🌍", "de": "Bester Internationaler Film", "fav": "Fjord", "top": 10,
+      "emoji": "🌍",
+      "de": "Bester Internationaler Film",
+      "fav": "Fjord",
+      "top": 10,
       "noms": [
-        { "n": "Fjord",                  "f": "Rumänien/Norwegen",        "p": 72 },
-        { "n": "Fatherland",             "f": "Deutschland/Polen",        "p": 62 },
-        { "n": "La Bola Negra",          "f": "Spanien",                   "p": 55 },
-        { "n": "All of a Sudden",        "f": "Japan",                     "p": 48 },
-        { "n": "Minotaur",               "f": "Frankreich/Russland",      "p": 40 },
-        { "n": "TBD — Venice",           "f": "Festival Sep. 2026",       "p": 30 },
-        { "n": "TBD — TIFF",             "f": "Festival Sep. 2026",       "p": 25 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 20 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 15 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 10 }
+        {
+          "n": "Fjord",
+          "f": "Rumänien/Norwegen",
+          "p": 72
+        },
+        {
+          "n": "Fatherland",
+          "f": "Deutschland/Polen",
+          "p": 62
+        },
+        {
+          "n": "La Bola Negra",
+          "f": "Spanien",
+          "p": 55
+        },
+        {
+          "n": "All of a Sudden",
+          "f": "Japan",
+          "p": 48
+        },
+        {
+          "n": "Minotaur",
+          "f": "Frankreich/Russland",
+          "p": 40
+        },
+        {
+          "n": "TBD — Venice",
+          "f": "Festival Sep. 2026",
+          "p": 30
+        },
+        {
+          "n": "TBD — TIFF",
+          "f": "Festival Sep. 2026",
+          "p": 25
+        },
+        {
+          "n": "TBD",
+          "f": "Herbst 2026",
+          "p": 20
+        },
+        {
+          "n": "TBD",
+          "f": "Herbst 2026",
+          "p": 15
+        },
+        {
+          "n": "TBD",
+          "f": "Herbst 2026",
+          "p": 10
+        }
       ]
     },
     {
-      "emoji": "🎞️", "de": "Bester Dokumentarfilm", "fav": "The Perfect Neighbor", "top": 10,
+      "emoji": "🎞️",
+      "de": "Bester Dokumentarfilm",
+      "fav": "Offen — Feld für 2026er Produktionen",
+      "top": 10,
       "noms": [
-        { "n": "The Perfect Neighbor",   "f": "G. Gandbhir",              "p": 38 },
-        { "n": "Mr. Nobody Against Putin","f": "TBD",                     "p": 28 },
-        { "n": "Come See Me in the Good Light","f": "TBD",               "p": 22 },
-        { "n": "TBD — Venice",           "f": "Festival",                 "p": 20 },
-        { "n": "TBD — TIFF",             "f": "Festival",                 "p": 18 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 15 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 12 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p": 10 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p":  8 },
-        { "n": "TBD",                    "f": "Herbst 2026",              "p":  6 }
+        {
+          "n": "TBD — Festival-Frontrunner",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 30
+        },
+        {
+          "n": "TBD — Venice/TIFF-Entdeckung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 22
+        },
+        {
+          "n": "TBD — Studio-Kandidat",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 18
+        },
+        {
+          "n": "TBD — Indie-Überraschung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 15
+        },
+        {
+          "n": "TBD — Internationaler Film",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 13
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 10
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 8
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 6
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 5
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 4
+        }
       ]
     },
     {
-      "emoji": "📽️", "de": "Beste Kurzdokumentation", "fav": "All the Empty Rooms", "top": 10,
+      "emoji": "📽️",
+      "de": "Beste Kurzdokumentation",
+      "fav": "Offen — Feld für 2026er Produktionen",
+      "top": 10,
       "noms": [
-        { "n": "All the Empty Rooms",    "f": "Seftel & Jones",           "p": 44 },
-        { "n": "Armed Only with a Camera","f": "Renaud & Arredondo",      "p": 26 },
-        { "n": "The Devil Is Busy",      "f": "Hampton & Gandbhir",       "p": 18 },
-        { "n": "TBD",                    "f": "2026",                     "p": 15 },
-        { "n": "TBD",                    "f": "2026",                     "p": 12 },
-        { "n": "TBD",                    "f": "2026",                     "p": 10 },
-        { "n": "TBD",                    "f": "2026",                     "p":  8 },
-        { "n": "TBD",                    "f": "2026",                     "p":  6 },
-        { "n": "TBD",                    "f": "2026",                     "p":  5 },
-        { "n": "TBD",                    "f": "2026",                     "p":  4 }
+        {
+          "n": "TBD — Festival-Frontrunner",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 30
+        },
+        {
+          "n": "TBD — Venice/TIFF-Entdeckung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 22
+        },
+        {
+          "n": "TBD — Studio-Kandidat",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 18
+        },
+        {
+          "n": "TBD — Indie-Überraschung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 15
+        },
+        {
+          "n": "TBD — Internationaler Film",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 13
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 10
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 8
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 6
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 5
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 4
+        }
       ]
     },
     {
-      "emoji": "🎬", "de": "Bester Kurzfilm (Realfilm)", "fav": "A Friend of Dorothy", "top": 10,
+      "emoji": "🎬",
+      "de": "Bester Kurzfilm (Realfilm)",
+      "fav": "Offen — Feld für 2026er Produktionen",
+      "top": 10,
       "noms": [
-        { "n": "A Friend of Dorothy",    "f": "Knight & Dean",            "p": 42 },
-        { "n": "Two People Exch. Saliva","f": "Singh & Musteata",         "p": 28 },
-        { "n": "Jane Austen's Period D.","f": "TBD",                      "p": 18 },
-        { "n": "TBD",                    "f": "2026",                     "p": 15 },
-        { "n": "TBD",                    "f": "2026",                     "p": 12 },
-        { "n": "TBD",                    "f": "2026",                     "p": 10 },
-        { "n": "TBD",                    "f": "2026",                     "p":  8 },
-        { "n": "TBD",                    "f": "2026",                     "p":  6 },
-        { "n": "TBD",                    "f": "2026",                     "p":  5 },
-        { "n": "TBD",                    "f": "2026",                     "p":  4 }
+        {
+          "n": "TBD — Festival-Frontrunner",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 30
+        },
+        {
+          "n": "TBD — Venice/TIFF-Entdeckung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 22
+        },
+        {
+          "n": "TBD — Studio-Kandidat",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 18
+        },
+        {
+          "n": "TBD — Indie-Überraschung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 15
+        },
+        {
+          "n": "TBD — Internationaler Film",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 13
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 10
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 8
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 6
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 5
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 4
+        }
       ]
     },
     {
-      "emoji": "🖌️", "de": "Bester Animierter Kurzfilm", "fav": "Butterfly", "top": 10,
+      "emoji": "🖌️",
+      "de": "Bester Animierter Kurzfilm",
+      "fav": "Offen — Feld für 2026er Produktionen",
+      "top": 10,
       "noms": [
-        { "n": "Butterfly",              "f": "Miailhe & Dyens",          "p": 40 },
-        { "n": "The Three Sisters",      "f": "Bronzit",                  "p": 22 },
-        { "n": "The Girl Who Cried Pearls","f": "TBD",                    "p": 20 },
-        { "n": "TBD",                    "f": "2026",                     "p": 15 },
-        { "n": "TBD",                    "f": "2026",                     "p": 12 },
-        { "n": "TBD",                    "f": "2026",                     "p": 10 },
-        { "n": "TBD",                    "f": "2026",                     "p":  8 },
-        { "n": "TBD",                    "f": "2026",                     "p":  6 },
-        { "n": "TBD",                    "f": "2026",                     "p":  5 },
-        { "n": "TBD",                    "f": "2026",                     "p":  4 }
+        {
+          "n": "TBD — Festival-Frontrunner",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 30
+        },
+        {
+          "n": "TBD — Venice/TIFF-Entdeckung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 22
+        },
+        {
+          "n": "TBD — Studio-Kandidat",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 18
+        },
+        {
+          "n": "TBD — Indie-Überraschung",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 15
+        },
+        {
+          "n": "TBD — Internationaler Film",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 13
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 10
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 8
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 6
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 5
+        },
+        {
+          "n": "TBD — TBD",
+          "f": "2026er Produktion noch nicht bekannt",
+          "p": 4
+        }
       ]
     },
     {
-      "emoji": "🎵", "de": "Beste Filmmusik", "fav": "Ludwig Göransson", "top": 10,
+      "emoji": "🎵",
+      "de": "Beste Filmmusik",
+      "fav": "Ludwig Göransson",
+      "top": 10,
       "noms": [
-        { "n": "Ludwig Göransson",       "f": "The Odyssey",              "p": 88 },
-        { "n": "Hans Zimmer",            "f": "Dune: Part Three",         "p": 80 },
-        { "n": "Carter Burwell",         "f": "Wild Horse Nine",          "p": 72 },
-        { "n": "Daniel Pemberton",       "f": "Project Hail Mary",        "p": 65 },
-        { "n": "Alexandre Desplat",      "f": "The Social Reckoning",     "p": 60 },
-        { "n": "Kaspar Kaae",            "f": "Fjord",                     "p": 55 },
-        { "n": "Emile Mosseri",          "f": "The Debut",                 "p": 48 },
-        { "n": "TBD",                    "f": "Digger",                    "p": 45 },
-        { "n": "Łukasz Żal / TBD",       "f": "Fatherland",                "p": 38 },
-        { "n": "TBD",                    "f": "Michael",                   "p": 35 }
+        {
+          "n": "Ludwig Göransson",
+          "f": "The Odyssey",
+          "p": 88
+        },
+        {
+          "n": "Hans Zimmer",
+          "f": "Dune: Part Three",
+          "p": 80
+        },
+        {
+          "n": "Carter Burwell",
+          "f": "Wild Horse Nine",
+          "p": 72
+        },
+        {
+          "n": "Daniel Pemberton",
+          "f": "Project Hail Mary",
+          "p": 65
+        },
+        {
+          "n": "Alexandre Desplat",
+          "f": "The Social Reckoning",
+          "p": 60
+        },
+        {
+          "n": "Kaspar Kaae",
+          "f": "Fjord",
+          "p": 55
+        },
+        {
+          "n": "Emile Mosseri",
+          "f": "The Debut",
+          "p": 48
+        },
+        {
+          "n": "TBD",
+          "f": "Digger",
+          "p": 45
+        },
+        {
+          "n": "Łukasz Żal / TBD",
+          "f": "Fatherland",
+          "p": 38
+        },
+        {
+          "n": "TBD",
+          "f": "Michael",
+          "p": 35
+        }
       ]
     },
     {
-      "emoji": "🎤", "de": "Bester Originalsong", "fav": "»Golden« — KPop Demon Hunters", "top": 10,
+      "emoji": "🎤",
+      "de": "Bester Originalsong",
+      "fav": "Offen — Song-Feld für 2026er Filme noch sehr früh",
+      "top": 10,
       "noms": [
-        { "n": "»Golden«",               "f": "KPop Demon Hunters",       "p": 44 },
-        { "n": "»I Lied To You«",        "f": "Sinners / Göransson",      "p": 30 },
-        { "n": "Train Dreams",           "f": "Nick Cave",                "p": 14 },
-        { "n": "TBD",                    "f": "The Debut / Mosseri",      "p": 10 },
-        { "n": "TBD",                    "f": "2026",                     "p":  8 },
-        { "n": "TBD",                    "f": "2026",                     "p":  7 },
-        { "n": "TBD",                    "f": "2026",                     "p":  6 },
-        { "n": "TBD",                    "f": "2026",                     "p":  5 },
-        { "n": "TBD",                    "f": "2026",                     "p":  4 },
-        { "n": "TBD",                    "f": "2026",                     "p":  3 }
+        {
+          "n": "TBD — The Debut",
+          "f": "Mosseri · A24",
+          "p": 28
+        },
+        {
+          "n": "TBD — Digger",
+          "f": "Iñárritu · Warner",
+          "p": 20
+        },
+        {
+          "n": "TBD — The Odyssey",
+          "f": "Göransson · Universal",
+          "p": 15
+        },
+        {
+          "n": "TBD — Dune: Part Three",
+          "f": "Zimmer · Warner",
+          "p": 12
+        },
+        {
+          "n": "TBD — Wild Horse Nine",
+          "f": "Burwell · Searchlight",
+          "p": 10
+        },
+        {
+          "n": "TBD — La Bola Negra",
+          "f": "Netflix · Spanien",
+          "p": 8
+        },
+        {
+          "n": "TBD — Fjord",
+          "f": "Neon · Mungiu",
+          "p": 6
+        },
+        {
+          "n": "TBD — Venice/TIFF-Film",
+          "f": "Festival Sep. 2026",
+          "p": 5
+        },
+        {
+          "n": "TBD",
+          "f": "Herbst 2026",
+          "p": 4
+        },
+        {
+          "n": "TBD",
+          "f": "Herbst 2026",
+          "p": 3
+        }
       ]
     },
     {
-      "emoji": "🔊", "de": "Bester Ton", "fav": "The Odyssey", "top": 10,
+      "emoji": "🔊",
+      "de": "Bester Ton",
+      "fav": "The Odyssey",
+      "top": 10,
       "noms": [
-        { "n": "The Odyssey",            "f": "Universal",                "p": 85 },
-        { "n": "Dune: Part Three",       "f": "Warner Bros.",             "p": 80 },
-        { "n": "Digger",                 "f": "Warner Bros.",             "p": 68 },
-        { "n": "Project Hail Mary",      "f": "Amazon MGM",               "p": 62 },
-        { "n": "Wild Horse Nine",        "f": "Searchlight",              "p": 60 },
-        { "n": "Michael",                "f": "Lionsgate",                "p": 55 },
-        { "n": "Fjord",                  "f": "Neon",                     "p": 45 },
-        { "n": "The Social Reckoning",   "f": "Sony",                     "p": 40 },
-        { "n": "All of a Sudden",        "f": "Neon",                     "p": 35 },
-        { "n": "The Debut",              "f": "A24",                      "p": 28 }
+        {
+          "n": "The Odyssey",
+          "f": "Universal",
+          "p": 85
+        },
+        {
+          "n": "Dune: Part Three",
+          "f": "Warner Bros.",
+          "p": 80
+        },
+        {
+          "n": "Digger",
+          "f": "Warner Bros.",
+          "p": 68
+        },
+        {
+          "n": "Project Hail Mary",
+          "f": "Amazon MGM",
+          "p": 62
+        },
+        {
+          "n": "Wild Horse Nine",
+          "f": "Searchlight",
+          "p": 60
+        },
+        {
+          "n": "Michael",
+          "f": "Lionsgate",
+          "p": 55
+        },
+        {
+          "n": "Fjord",
+          "f": "Neon",
+          "p": 45
+        },
+        {
+          "n": "The Social Reckoning",
+          "f": "Sony",
+          "p": 40
+        },
+        {
+          "n": "All of a Sudden",
+          "f": "Neon",
+          "p": 35
+        },
+        {
+          "n": "The Debut",
+          "f": "A24",
+          "p": 28
+        }
       ]
     },
     {
-      "emoji": "✂️", "de": "Bester Schnitt", "fav": "Jennifer Lame", "top": 10,
+      "emoji": "✂️",
+      "de": "Bester Schnitt",
+      "fav": "Jennifer Lame",
+      "top": 10,
       "noms": [
-        { "n": "Jennifer Lame",          "f": "The Odyssey",              "p": 82 },
-        { "n": "Joe Walker",             "f": "Dune: Part Three",         "p": 75 },
-        { "n": "Mirrione & O'Neill",     "f": "Digger",                   "p": 68 },
-        { "n": "Mikkel E.G. Nielsen",    "f": "Wild Horse Nine",          "p": 62 },
-        { "n": "Joel Negron",            "f": "Project Hail Mary",        "p": 58 },
-        { "n": "Mircea Olteanu",         "f": "Fjord",                    "p": 52 },
-        { "n": "John Ottman et al.",     "f": "Michael",                  "p": 45 },
-        { "n": "TBD",                    "f": "The Social Reckoning",     "p": 38 },
-        { "n": "Piotr Wójcik",           "f": "Fatherland",               "p": 35 },
-        { "n": "TBD",                    "f": "The Debut",                "p": 28 }
+        {
+          "n": "Jennifer Lame",
+          "f": "The Odyssey",
+          "p": 82
+        },
+        {
+          "n": "Joe Walker",
+          "f": "Dune: Part Three",
+          "p": 75
+        },
+        {
+          "n": "Mirrione & O'Neill",
+          "f": "Digger",
+          "p": 68
+        },
+        {
+          "n": "Mikkel E.G. Nielsen",
+          "f": "Wild Horse Nine",
+          "p": 62
+        },
+        {
+          "n": "Joel Negron",
+          "f": "Project Hail Mary",
+          "p": 58
+        },
+        {
+          "n": "Mircea Olteanu",
+          "f": "Fjord",
+          "p": 52
+        },
+        {
+          "n": "John Ottman et al.",
+          "f": "Michael",
+          "p": 45
+        },
+        {
+          "n": "TBD",
+          "f": "The Social Reckoning",
+          "p": 38
+        },
+        {
+          "n": "Piotr Wójcik",
+          "f": "Fatherland",
+          "p": 35
+        },
+        {
+          "n": "TBD",
+          "f": "The Debut",
+          "p": 28
+        }
       ]
     },
     {
-      "emoji": "📷", "de": "Beste Kamera", "fav": "Emmanuel Lubezki", "top": 10,
+      "emoji": "📷",
+      "de": "Beste Kamera",
+      "fav": "Emmanuel Lubezki",
+      "top": 10,
       "noms": [
-        { "n": "Emmanuel Lubezki",       "f": "Digger",                   "p": 88 },
-        { "n": "Hoyte van Hoytema",      "f": "The Odyssey",              "p": 82 },
-        { "n": "Greig Fraser",           "f": "Project Hail Mary",        "p": 72 },
-        { "n": "Linus Sandgren",         "f": "Dune: Part Three",         "p": 68 },
-        { "n": "Tudor V. Panduru",       "f": "Fjord",                    "p": 62 },
-        { "n": "Ben Davis",              "f": "Wild Horse Nine",          "p": 58 },
-        { "n": "Łukasz Żal",             "f": "Fatherland",               "p": 52 },
-        { "n": "Jeff Cronenweth",        "f": "The Social Reckoning",     "p": 45 },
-        { "n": "Dion Beebe",             "f": "Michael",                  "p": 38 },
-        { "n": "R. Mishima",             "f": "All of a Sudden",          "p": 35 }
+        {
+          "n": "Emmanuel Lubezki",
+          "f": "Digger",
+          "p": 88
+        },
+        {
+          "n": "Hoyte van Hoytema",
+          "f": "The Odyssey",
+          "p": 82
+        },
+        {
+          "n": "Greig Fraser",
+          "f": "Project Hail Mary",
+          "p": 72
+        },
+        {
+          "n": "Linus Sandgren",
+          "f": "Dune: Part Three",
+          "p": 68
+        },
+        {
+          "n": "Tudor V. Panduru",
+          "f": "Fjord",
+          "p": 62
+        },
+        {
+          "n": "Ben Davis",
+          "f": "Wild Horse Nine",
+          "p": 58
+        },
+        {
+          "n": "Łukasz Żal",
+          "f": "Fatherland",
+          "p": 52
+        },
+        {
+          "n": "Jeff Cronenweth",
+          "f": "The Social Reckoning",
+          "p": 45
+        },
+        {
+          "n": "Dion Beebe",
+          "f": "Michael",
+          "p": 38
+        },
+        {
+          "n": "R. Mishima",
+          "f": "All of a Sudden",
+          "p": 35
+        }
       ]
     },
     {
-      "emoji": "🏛️", "de": "Bestes Szenenbild", "fav": "The Odyssey", "top": 10,
+      "emoji": "🏛️",
+      "de": "Bestes Szenenbild",
+      "fav": "The Odyssey",
+      "top": 10,
       "noms": [
-        { "n": "The Odyssey",            "f": "PD TBD · Universal",       "p": 88 },
-        { "n": "Dune: Part Three",       "f": "Patrice Vermette",         "p": 82 },
-        { "n": "Michael",                "f": "PD TBD · Lionsgate",       "p": 72 },
-        { "n": "Wild Horse Nine",        "f": "PD TBD · Searchlight",     "p": 68 },
-        { "n": "Digger",                 "f": "Dennis Gassner",           "p": 62 },
-        { "n": "Fatherland",             "f": "PD TBD · MUBI",            "p": 55 },
-        { "n": "La Bola Negra",          "f": "Netflix",                  "p": 50 },
-        { "n": "Project Hail Mary",      "f": "Charles Wood",             "p": 48 },
-        { "n": "The Social Reckoning",   "f": "Sony",                     "p": 38 },
-        { "n": "Josephine",              "f": "Sumerian",                 "p": 32 }
+        {
+          "n": "The Odyssey",
+          "f": "PD TBD · Universal",
+          "p": 88
+        },
+        {
+          "n": "Dune: Part Three",
+          "f": "Patrice Vermette",
+          "p": 82
+        },
+        {
+          "n": "Michael",
+          "f": "PD TBD · Lionsgate",
+          "p": 72
+        },
+        {
+          "n": "Wild Horse Nine",
+          "f": "PD TBD · Searchlight",
+          "p": 68
+        },
+        {
+          "n": "Digger",
+          "f": "Dennis Gassner",
+          "p": 62
+        },
+        {
+          "n": "Fatherland",
+          "f": "PD TBD · MUBI",
+          "p": 55
+        },
+        {
+          "n": "La Bola Negra",
+          "f": "Netflix",
+          "p": 50
+        },
+        {
+          "n": "Project Hail Mary",
+          "f": "Charles Wood",
+          "p": 48
+        },
+        {
+          "n": "The Social Reckoning",
+          "f": "Sony",
+          "p": 38
+        },
+        {
+          "n": "Josephine",
+          "f": "Sumerian",
+          "p": 32
+        }
       ]
     },
     {
-      "emoji": "👗", "de": "Bestes Kostümbild", "fav": "The Odyssey", "top": 10,
+      "emoji": "👗",
+      "de": "Bestes Kostümbild",
+      "fav": "The Odyssey",
+      "top": 10,
       "noms": [
-        { "n": "The Odyssey",            "f": "Kostüm TBD",               "p": 82 },
-        { "n": "Dune: Part Three",       "f": "Jacqueline West",          "p": 75 },
-        { "n": "Michael",                "f": "Kostüm TBD",               "p": 68 },
-        { "n": "Fatherland",             "f": "TBD",                      "p": 60 },
-        { "n": "Wild Horse Nine",        "f": "TBD",                      "p": 55 },
-        { "n": "La Bola Negra",          "f": "Netflix",                  "p": 50 },
-        { "n": "The Debut",              "f": "A24",                      "p": 42 },
-        { "n": "Digger",                 "f": "TBD",                      "p": 38 },
-        { "n": "All of a Sudden",        "f": "Neon",                     "p": 32 },
-        { "n": "Fjord",                  "f": "Neon",                     "p": 25 }
+        {
+          "n": "The Odyssey",
+          "f": "Kostüm TBD",
+          "p": 82
+        },
+        {
+          "n": "Dune: Part Three",
+          "f": "Jacqueline West",
+          "p": 75
+        },
+        {
+          "n": "Michael",
+          "f": "Kostüm TBD",
+          "p": 68
+        },
+        {
+          "n": "Fatherland",
+          "f": "TBD",
+          "p": 60
+        },
+        {
+          "n": "Wild Horse Nine",
+          "f": "TBD",
+          "p": 55
+        },
+        {
+          "n": "La Bola Negra",
+          "f": "Netflix",
+          "p": 50
+        },
+        {
+          "n": "The Debut",
+          "f": "A24",
+          "p": 42
+        },
+        {
+          "n": "Digger",
+          "f": "TBD",
+          "p": 38
+        },
+        {
+          "n": "All of a Sudden",
+          "f": "Neon",
+          "p": 32
+        },
+        {
+          "n": "Fjord",
+          "f": "Neon",
+          "p": 25
+        }
       ]
     },
     {
-      "emoji": "💄", "de": "Bestes Make-up & Frisuren", "fav": "Digger / Michael", "top": 10,
+      "emoji": "💄",
+      "de": "Bestes Make-up & Frisuren",
+      "fav": "Digger / Michael",
+      "top": 10,
       "noms": [
-        { "n": "Digger",                 "f": "Iñárritu · Warner",        "p": 72 },
-        { "n": "Michael",                "f": "Fuqua · Lionsgate",        "p": 65 },
-        { "n": "The Odyssey",            "f": "Universal",                "p": 58 },
-        { "n": "Wild Horse Nine",        "f": "Searchlight",              "p": 48 },
-        { "n": "Dune: Part Three",       "f": "Warner Bros.",             "p": 45 },
-        { "n": "The Debut",              "f": "A24",                      "p": 35 },
-        { "n": "Fatherland",             "f": "MUBI",                     "p": 28 },
-        { "n": "La Bola Negra",          "f": "Netflix",                  "p": 22 },
-        { "n": "Project Hail Mary",      "f": "Amazon MGM",               "p": 18 },
-        { "n": "Fjord",                  "f": "Neon",                     "p": 12 }
+        {
+          "n": "Digger",
+          "f": "Iñárritu · Warner",
+          "p": 72
+        },
+        {
+          "n": "Michael",
+          "f": "Fuqua · Lionsgate",
+          "p": 65
+        },
+        {
+          "n": "The Odyssey",
+          "f": "Universal",
+          "p": 58
+        },
+        {
+          "n": "Wild Horse Nine",
+          "f": "Searchlight",
+          "p": 48
+        },
+        {
+          "n": "Dune: Part Three",
+          "f": "Warner Bros.",
+          "p": 45
+        },
+        {
+          "n": "The Debut",
+          "f": "A24",
+          "p": 35
+        },
+        {
+          "n": "Fatherland",
+          "f": "MUBI",
+          "p": 28
+        },
+        {
+          "n": "La Bola Negra",
+          "f": "Netflix",
+          "p": 22
+        },
+        {
+          "n": "Project Hail Mary",
+          "f": "Amazon MGM",
+          "p": 18
+        },
+        {
+          "n": "Fjord",
+          "f": "Neon",
+          "p": 12
+        }
       ]
     },
     {
-      "emoji": "⚡", "de": "Beste Visuellen Effekte", "fav": "The Odyssey", "top": 10,
+      "emoji": "⚡",
+      "de": "Beste Visuellen Effekte",
+      "fav": "The Odyssey",
+      "top": 10,
       "noms": [
-        { "n": "The Odyssey",            "f": "ILM · Universal",          "p": 90 },
-        { "n": "Dune: Part Three",       "f": "Weta · Warner Bros.",      "p": 82 },
-        { "n": "Project Hail Mary",      "f": "MPC · Amazon MGM",         "p": 75 },
-        { "n": "Michael",                "f": "VFX TBD · Lionsgate",      "p": 55 },
-        { "n": "Digger",                 "f": "TBD · Warner Bros.",        "p": 50 },
-        { "n": "Josephine",              "f": "TBD",                      "p": 38 },
-        { "n": "Disclosure Day",         "f": "ILM · Universal",          "p": 32 },
-        { "n": "La Bola Negra",          "f": "Netflix",                  "p": 28 },
-        { "n": "All of a Sudden",        "f": "Neon",                     "p": 18 },
-        { "n": "Fjord",                  "f": "Neon",                     "p": 15 }
+        {
+          "n": "The Odyssey",
+          "f": "ILM · Universal",
+          "p": 90
+        },
+        {
+          "n": "Dune: Part Three",
+          "f": "Weta · Warner Bros.",
+          "p": 82
+        },
+        {
+          "n": "Project Hail Mary",
+          "f": "MPC · Amazon MGM",
+          "p": 75
+        },
+        {
+          "n": "Michael",
+          "f": "VFX TBD · Lionsgate",
+          "p": 55
+        },
+        {
+          "n": "Digger",
+          "f": "TBD · Warner Bros.",
+          "p": 50
+        },
+        {
+          "n": "Josephine",
+          "f": "TBD",
+          "p": 38
+        },
+        {
+          "n": "Disclosure Day",
+          "f": "ILM · Universal",
+          "p": 32
+        },
+        {
+          "n": "La Bola Negra",
+          "f": "Netflix",
+          "p": 28
+        },
+        {
+          "n": "All of a Sudden",
+          "f": "Neon",
+          "p": 18
+        },
+        {
+          "n": "Fjord",
+          "f": "Neon",
+          "p": 15
+        }
       ]
     },
     {
-      "emoji": "🎪", "de": "Bestes Casting", "fav": "The Odyssey", "top": 10,
+      "emoji": "🎪",
+      "de": "Bestes Casting",
+      "fav": "The Odyssey",
+      "top": 10,
       "noms": [
-        { "n": "The Odyssey",            "f": "20+ Stars · Universal",    "p": 88 },
-        { "n": "Wild Horse Nine",        "f": "Malkovich+Rockwell+Waits", "p": 85 },
-        { "n": "Digger",                 "f": "Cruise+Hüller+Plemons",    "p": 78 },
-        { "n": "The Debut",              "f": "Moore+Giamatti+Bailey",    "p": 75 },
-        { "n": "The Social Reckoning",   "f": "Strong+Madison+White",     "p": 70 },
-        { "n": "Michael",                "f": "Jaafar+Domingo+Teller",    "p": 65 },
-        { "n": "Dune: Part Three",       "f": "Chalamet+Zendaya+Pugh...", "p": 62 },
-        { "n": "Project Hail Mary",      "f": "Gosling+Hüller+Ortiz",     "p": 58 },
-        { "n": "Fjord",                  "f": "Stan+Reinsve · Neon",      "p": 52 },
-        { "n": "La Bola Negra",          "f": "Cruz+Guitarricadelafuente","p": 48 }
+        {
+          "n": "The Odyssey",
+          "f": "20+ Stars · Universal",
+          "p": 88
+        },
+        {
+          "n": "Wild Horse Nine",
+          "f": "Malkovich+Rockwell+Waits",
+          "p": 85
+        },
+        {
+          "n": "Digger",
+          "f": "Cruise+Hüller+Plemons",
+          "p": 78
+        },
+        {
+          "n": "The Debut",
+          "f": "Moore+Giamatti+Bailey",
+          "p": 75
+        },
+        {
+          "n": "The Social Reckoning",
+          "f": "Strong+Madison+White",
+          "p": 70
+        },
+        {
+          "n": "Michael",
+          "f": "Jaafar+Domingo+Teller",
+          "p": 65
+        },
+        {
+          "n": "Dune: Part Three",
+          "f": "Chalamet+Zendaya+Pugh...",
+          "p": 62
+        },
+        {
+          "n": "Project Hail Mary",
+          "f": "Gosling+Hüller+Ortiz",
+          "p": 58
+        },
+        {
+          "n": "Fjord",
+          "f": "Stan+Reinsve · Neon",
+          "p": 52
+        },
+        {
+          "n": "La Bola Negra",
+          "f": "Cruz+Guitarricadelafuente",
+          "p": 48
+        }
       ]
     }
   ],
-
   "precursors": [
     {
-      "id": "venice", "name": "Venice Film Festival", "abbr": "VEN",
-      "date": "2.–12. Sep. 2026", "col": "#2A4A8A", "done": false,
+      "id": "venice",
+      "name": "Venice Film Festival",
+      "abbr": "VEN",
+      "date": "2.–12. Sep. 2026",
+      "col": "#2A4A8A",
+      "done": false,
       "note": "Goldener Löwe kein direktes BP-Signal, aber Regie/Kamera/Darsteller-Reaktionen wichtig",
       "cats": [
-        { "cat": "Bester Film (Goldener Löwe)",    "w": "TBD" },
-        { "cat": "Beste Regie (Silberner Löwe)",   "w": "TBD" },
-        { "cat": "Bester Darsteller",              "w": "TBD" },
-        { "cat": "Beste Darstellerin",             "w": "TBD" },
-        { "cat": "Grand Jury Prize",               "w": "TBD" }
+        {
+          "cat": "Bester Film (Goldener Löwe)",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Regie (Silberner Löwe)",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Darsteller",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Darstellerin",
+          "w": "TBD"
+        },
+        {
+          "cat": "Grand Jury Prize",
+          "w": "TBD"
+        }
       ]
     },
     {
-      "id": "tiff", "name": "Toronto Int. Film Festival", "abbr": "TIFF",
-      "date": "Sep. 2026", "col": "#1A5A3A", "done": false,
+      "id": "tiff",
+      "name": "Toronto Int. Film Festival",
+      "abbr": "TIFF",
+      "date": "Sep. 2026",
+      "col": "#1A5A3A",
+      "done": false,
       "note": "People's Choice Award: stärkster einzelner BP-Prädiktor außer Guild Awards",
       "cats": [
-        { "cat": "People's Choice Award", "w": "TBD" },
-        { "cat": "Platform Prize",        "w": "TBD" }
+        {
+          "cat": "People's Choice Award",
+          "w": "TBD"
+        },
+        {
+          "cat": "Platform Prize",
+          "w": "TBD"
+        }
       ]
     },
     {
-      "id": "nbr", "name": "National Board of Review", "abbr": "NBR",
-      "date": "Dez. 2026", "col": "#5A3A1A", "done": false,
+      "id": "nbr",
+      "name": "National Board of Review",
+      "abbr": "NBR",
+      "date": "Dez. 2026",
+      "col": "#5A3A1A",
+      "done": false,
       "note": "Erster US-Filmpreis der Saison — oft überraschend, nur mittlere Voraussagekraft",
       "cats": [
-        { "cat": "Bester Film",      "w": "TBD" },
-        { "cat": "Beste Regie",      "w": "TBD" },
-        { "cat": "Bester Darsteller","w": "TBD" },
-        { "cat": "Beste Darstellerin","w": "TBD" }
+        {
+          "cat": "Bester Film",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Regie",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Darsteller",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Darstellerin",
+          "w": "TBD"
+        }
       ]
     },
     {
-      "id": "cc", "name": "Critics Choice Awards", "abbr": "CC",
-      "date": "Jan. 2027", "col": "#5A3A7A", "done": false,
+      "id": "cc",
+      "name": "Critics Choice Awards",
+      "abbr": "CC",
+      "date": "Jan. 2027",
+      "col": "#5A3A7A",
+      "done": false,
       "note": "Breite Kritikerwahl — wichtig für Momentum, oft divergent vom Oscar",
       "cats": [
-        { "cat": "Bester Film",            "w": "TBD" },
-        { "cat": "Beste Regie",            "w": "TBD" },
-        { "cat": "Bester Darsteller",      "w": "TBD" },
-        { "cat": "Beste Darstellerin",     "w": "TBD" },
-        { "cat": "Bester Animationsfilm",  "w": "TBD" },
-        { "cat": "Bester Intl. Film",      "w": "TBD" }
+        {
+          "cat": "Bester Film",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Regie",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Darsteller",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Darstellerin",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Animationsfilm",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Intl. Film",
+          "w": "TBD"
+        }
       ]
     },
     {
-      "id": "gg", "name": "Golden Globe Awards", "abbr": "GG",
-      "date": "Jan. 2027", "col": "#8A6210", "done": false,
+      "id": "gg",
+      "name": "Golden Globe Awards",
+      "abbr": "GG",
+      "date": "Jan. 2027",
+      "col": "#8A6210",
+      "done": false,
       "note": "Drama-Sieger oft Oscar-BP-Sieger. Regie-Globus ≈ Oscar-Regie in 70% der Fälle",
       "cats": [
-        { "cat": "Bester Film (Drama)",         "w": "TBD" },
-        { "cat": "Bester Film (Komödie/Musical)","w": "TBD" },
-        { "cat": "Beste Regie",                 "w": "TBD" },
-        { "cat": "Bester Darsteller (Drama)",   "w": "TBD" },
-        { "cat": "Beste Darstellerin (Drama)",  "w": "TBD" },
-        { "cat": "Bester Animationsfilm",       "w": "TBD" },
-        { "cat": "Bester Nicht-Engl. Film",     "w": "TBD" },
-        { "cat": "Beste Filmmusik",             "w": "TBD" }
+        {
+          "cat": "Bester Film (Drama)",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Film (Komödie/Musical)",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Regie",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Darsteller (Drama)",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Darstellerin (Drama)",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Animationsfilm",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Nicht-Engl. Film",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Filmmusik",
+          "w": "TBD"
+        }
       ]
     },
     {
-      "id": "dga", "name": "Directors Guild Award", "abbr": "DGA",
-      "date": "Feb. 2027", "col": "#1A4A7A", "done": false,
+      "id": "dga",
+      "name": "Directors Guild Award",
+      "abbr": "DGA",
+      "date": "Feb. 2027",
+      "col": "#1A4A7A",
+      "done": false,
       "note": "Stärkster Einzel-Prädiktor für den Regie-Oscar — DGA-Sieger gewinnt Oscar in ~80% der Fälle",
       "cats": [
-        { "cat": "Beste Regie (Spielfilm)",  "w": "TBD" },
-        { "cat": "Beste Regie (Erstwerk)",   "w": "TBD" }
+        {
+          "cat": "Beste Regie (Spielfilm)",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Regie (Erstwerk)",
+          "w": "TBD"
+        }
       ]
     },
     {
-      "id": "pga", "name": "Producers Guild Award", "abbr": "PGA",
-      "date": "Feb. 2027", "col": "#3A2A6A", "done": false,
+      "id": "pga",
+      "name": "Producers Guild Award",
+      "abbr": "PGA",
+      "date": "Feb. 2027",
+      "col": "#3A2A6A",
+      "done": false,
       "note": "Stärkstes BP-Signal — PGA-Sieger (Zanuck Award) gewinnt BP-Oscar in ~60% der Fälle",
       "cats": [
-        { "cat": "Bester Film (Zanuck Award)", "w": "TBD" }
+        {
+          "cat": "Bester Film (Zanuck Award)",
+          "w": "TBD"
+        }
       ]
     },
     {
-      "id": "sag", "name": "SAG Awards", "abbr": "SAG",
-      "date": "Feb. 2027", "col": "#2A5A3A", "done": false,
+      "id": "sag",
+      "name": "SAG Awards",
+      "abbr": "SAG",
+      "date": "Feb. 2027",
+      "col": "#2A5A3A",
+      "done": false,
       "note": "SAG-Ensemble-Sieg = sehr starkes BP-Signal. Schauspiel-Kategorien direkt Oscar-relevant",
       "cats": [
-        { "cat": "Ensemble (Spielfilm)",       "w": "TBD" },
-        { "cat": "Bester Darsteller",         "w": "TBD" },
-        { "cat": "Beste Darstellerin",        "w": "TBD" },
-        { "cat": "Bester Nebendarsteller",    "w": "TBD" },
-        { "cat": "Beste Nebendarstellerin",   "w": "TBD" }
+        {
+          "cat": "Ensemble (Spielfilm)",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Darsteller",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Darstellerin",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Nebendarsteller",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Nebendarstellerin",
+          "w": "TBD"
+        }
       ]
     },
     {
-      "id": "bafta", "name": "BAFTA", "abbr": "BAFTA",
-      "date": "Feb. 2027", "col": "#1A3A6A", "done": false,
+      "id": "bafta",
+      "name": "BAFTA",
+      "abbr": "BAFTA",
+      "date": "Feb. 2027",
+      "col": "#1A3A6A",
+      "done": false,
       "note": "Britischer Vorab-Oscar — Director + Kamera oft Oscar-deckungsgleich",
       "cats": [
-        { "cat": "Bester Film",              "w": "TBD" },
-        { "cat": "Beste Regie",              "w": "TBD" },
-        { "cat": "Bester Darsteller",        "w": "TBD" },
-        { "cat": "Beste Darstellerin",       "w": "TBD" },
-        { "cat": "Bester Nebendarsteller",   "w": "TBD" },
-        { "cat": "Beste Nebendarstellerin",  "w": "TBD" },
-        { "cat": "Bester Nicht-Engl. Film",  "w": "TBD" },
-        { "cat": "Bester Animationsfilm",    "w": "TBD" },
-        { "cat": "Beste Filmmusik",          "w": "TBD" },
-        { "cat": "Beste Kamera",             "w": "TBD" }
+        {
+          "cat": "Bester Film",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Regie",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Darsteller",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Darstellerin",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Nebendarsteller",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Nebendarstellerin",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Nicht-Engl. Film",
+          "w": "TBD"
+        },
+        {
+          "cat": "Bester Animationsfilm",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Filmmusik",
+          "w": "TBD"
+        },
+        {
+          "cat": "Beste Kamera",
+          "w": "TBD"
+        }
       ]
     },
     {
-      "id": "nom", "name": "Oscar-Nominierungen", "abbr": "NOM",
-      "date": "21. Jan. 2027", "col": "#8A6210", "done": false,
+      "id": "nom",
+      "name": "Oscar-Nominierungen",
+      "abbr": "NOM",
+      "date": "21. Jan. 2027",
+      "col": "#8A6210",
+      "done": false,
       "note": "Offizielle Bekanntgabe aller Oscar-Nominierungen — Dreharbeiten bis 31. Dez. 2026",
       "cats": [
-        { "cat": "Alle 24 Kategorien", "w": "Bekanntgabe 21. Jan. 2027" }
+        {
+          "cat": "Alle 24 Kategorien",
+          "w": "Bekanntgabe 21. Jan. 2027"
+        }
       ]
     }
   ],
-
   "odds": {
     "lastChecked": "2026-08-30",
     "nextCheck": "2026-09-06",
     "cats": [
-      "Bester Film","Beste Regie","Bester Hauptdarsteller","Beste Hauptdarstellerin",
-      "Bester Nebendarsteller","Beste Nebendarstellerin","Beste Filmmusik","Beste Kamera",
-      "Bester Schnitt","Bester Ton","Beste Visuellen Effekte","Bestes Szenenbild","Bestes Casting"
+      "Bester Film",
+      "Beste Regie",
+      "Bester Hauptdarsteller",
+      "Beste Hauptdarstellerin",
+      "Bester Nebendarsteller",
+      "Beste Nebendarstellerin",
+      "Beste Filmmusik",
+      "Beste Kamera",
+      "Bester Schnitt",
+      "Bester Ton",
+      "Beste Visuellen Effekte",
+      "Bestes Szenenbild",
+      "Bestes Casting"
     ],
     "data": {
       "Bester Film": [
-        { "n": "The Odyssey",          "gd": "-800", "dk": 1.12, "b365": 1.15, "wh": 1.18 },
-        { "n": "Dune: Part Three",     "gd": "+500", "dk": 6.00, "b365": 5.80, "wh": 6.50 },
-        { "n": "Digger",               "gd": "+800", "dk": 9.50, "b365": 9.00, "wh": 10.00 },
-        { "n": "Wild Horse Nine",      "gd": "+1400","dk": 15.00,"b365": 14.00,"wh": 16.00 },
-        { "n": "The Debut",            "gd": "+1600","dk": 18.00,"b365": 17.00,"wh": 19.00 }
+        {
+          "n": "The Odyssey",
+          "gd": "-800",
+          "dk": 1.12,
+          "b365": 1.15,
+          "wh": 1.18
+        },
+        {
+          "n": "Dune: Part Three",
+          "gd": "+500",
+          "dk": 6.0,
+          "b365": 5.8,
+          "wh": 6.5
+        },
+        {
+          "n": "Digger",
+          "gd": "+800",
+          "dk": 9.5,
+          "b365": 9.0,
+          "wh": 10.0
+        },
+        {
+          "n": "Wild Horse Nine",
+          "gd": "+1400",
+          "dk": 15.0,
+          "b365": 14.0,
+          "wh": 16.0
+        },
+        {
+          "n": "The Debut",
+          "gd": "+1600",
+          "dk": 18.0,
+          "b365": 17.0,
+          "wh": 19.0
+        }
       ],
       "Beste Regie": [
-        { "n": "C. Nolan",             "gd": "-700", "dk": 1.14, "b365": 1.18, "wh": 1.20 },
-        { "n": "A.G. Iñárritu",        "gd": "+450", "dk": 5.50, "b365": 5.00, "wh": 6.00 },
-        { "n": "D. Villeneuve",        "gd": "+700", "dk": 8.00, "b365": 7.50, "wh": 8.50 },
-        { "n": "C. Mungiu",            "gd": "+900", "dk": 10.00,"b365": 9.50, "wh": 11.00 },
-        { "n": "M. McDonagh",          "gd": "+1200","dk": 13.00,"b365": 12.00,"wh": 14.00 }
+        {
+          "n": "C. Nolan",
+          "gd": "-700",
+          "dk": 1.14,
+          "b365": 1.18,
+          "wh": 1.2
+        },
+        {
+          "n": "A.G. Iñárritu",
+          "gd": "+450",
+          "dk": 5.5,
+          "b365": 5.0,
+          "wh": 6.0
+        },
+        {
+          "n": "D. Villeneuve",
+          "gd": "+700",
+          "dk": 8.0,
+          "b365": 7.5,
+          "wh": 8.5
+        },
+        {
+          "n": "C. Mungiu",
+          "gd": "+900",
+          "dk": 10.0,
+          "b365": 9.5,
+          "wh": 11.0
+        },
+        {
+          "n": "M. McDonagh",
+          "gd": "+1200",
+          "dk": 13.0,
+          "b365": 12.0,
+          "wh": 14.0
+        }
       ],
       "Bester Hauptdarsteller": [
-        { "n": "Tom Cruise",           "gd": "-600", "dk": 1.17, "b365": 1.22, "wh": 1.25 },
-        { "n": "John Malkovich",       "gd": "+400", "dk": 5.00, "b365": 4.80, "wh": 5.50 },
-        { "n": "Ryan Gosling",         "gd": "+700", "dk": 8.00, "b365": 7.50, "wh": 8.50 },
-        { "n": "Matt Damon",           "gd": "+1100","dk": 12.00,"b365": 11.00,"wh": 13.00 },
-        { "n": "Sebastian Stan",       "gd": "+1400","dk": 15.00,"b365": 14.00,"wh": 16.00 }
+        {
+          "n": "Tom Cruise",
+          "gd": "-600",
+          "dk": 1.17,
+          "b365": 1.22,
+          "wh": 1.25
+        },
+        {
+          "n": "John Malkovich",
+          "gd": "+400",
+          "dk": 5.0,
+          "b365": 4.8,
+          "wh": 5.5
+        },
+        {
+          "n": "Ryan Gosling",
+          "gd": "+700",
+          "dk": 8.0,
+          "b365": 7.5,
+          "wh": 8.5
+        },
+        {
+          "n": "Matt Damon",
+          "gd": "+1100",
+          "dk": 12.0,
+          "b365": 11.0,
+          "wh": 13.0
+        },
+        {
+          "n": "Sebastian Stan",
+          "gd": "+1400",
+          "dk": 15.0,
+          "b365": 14.0,
+          "wh": 16.0
+        }
       ],
       "Beste Hauptdarstellerin": [
-        { "n": "Julianne Moore",       "gd": "-1000","dk": 1.10, "b365": 1.12, "wh": 1.15 },
-        { "n": "Renate Reinsve",       "gd": "+600", "dk": 7.00, "b365": 6.50, "wh": 7.50 },
-        { "n": "Mikey Madison",        "gd": "+900", "dk": 10.00,"b365": 9.50, "wh": 11.00 },
-        { "n": "Sandra Hüller",        "gd": "+1100","dk": 12.00,"b365": 11.00,"wh": 13.00 },
-        { "n": "Penélope Cruz",        "gd": "+1600","dk": 17.00,"b365": 16.00,"wh": 18.00 }
+        {
+          "n": "Julianne Moore",
+          "gd": "-1000",
+          "dk": 1.1,
+          "b365": 1.12,
+          "wh": 1.15
+        },
+        {
+          "n": "Renate Reinsve",
+          "gd": "+600",
+          "dk": 7.0,
+          "b365": 6.5,
+          "wh": 7.5
+        },
+        {
+          "n": "Mikey Madison",
+          "gd": "+900",
+          "dk": 10.0,
+          "b365": 9.5,
+          "wh": 11.0
+        },
+        {
+          "n": "Sandra Hüller",
+          "gd": "+1100",
+          "dk": 12.0,
+          "b365": 11.0,
+          "wh": 13.0
+        },
+        {
+          "n": "Penélope Cruz",
+          "gd": "+1600",
+          "dk": 17.0,
+          "b365": 16.0,
+          "wh": 18.0
+        }
       ],
       "Bester Nebendarsteller": [
-        { "n": "Paul Giamatti",        "gd": "-500", "dk": 1.20, "b365": 1.25, "wh": 1.28 },
-        { "n": "Sam Rockwell",         "gd": "+350", "dk": 4.50, "b365": 4.20, "wh": 5.00 },
-        { "n": "Tom Holland",          "gd": "+600", "dk": 7.00, "b365": 6.50, "wh": 7.50 },
-        { "n": "Colman Domingo",       "gd": "+800", "dk": 9.00, "b365": 8.50, "wh": 10.00 },
-        { "n": "Jesse Plemons",        "gd": "+1000","dk": 11.00,"b365": 10.50,"wh": 12.00 }
+        {
+          "n": "Paul Giamatti",
+          "gd": "-500",
+          "dk": 1.2,
+          "b365": 1.25,
+          "wh": 1.28
+        },
+        {
+          "n": "Sam Rockwell",
+          "gd": "+350",
+          "dk": 4.5,
+          "b365": 4.2,
+          "wh": 5.0
+        },
+        {
+          "n": "Tom Holland",
+          "gd": "+600",
+          "dk": 7.0,
+          "b365": 6.5,
+          "wh": 7.5
+        },
+        {
+          "n": "Colman Domingo",
+          "gd": "+800",
+          "dk": 9.0,
+          "b365": 8.5,
+          "wh": 10.0
+        },
+        {
+          "n": "Jesse Plemons",
+          "gd": "+1000",
+          "dk": 11.0,
+          "b365": 10.5,
+          "wh": 12.0
+        }
       ],
       "Beste Nebendarstellerin": [
-        { "n": "Anne Hathaway",        "gd": "-400", "dk": 1.25, "b365": 1.30, "wh": 1.33 },
-        { "n": "Parker Posey",         "gd": "+350", "dk": 4.50, "b365": 4.20, "wh": 5.00 },
-        { "n": "M. di Girolamo",       "gd": "+500", "dk": 6.00, "b365": 5.80, "wh": 6.50 },
-        { "n": "Sandra Hüller",        "gd": "+700", "dk": 8.00, "b365": 7.50, "wh": 8.50 },
-        { "n": "Anya Taylor-Joy",      "gd": "+900", "dk": 10.00,"b365": 9.50, "wh": 11.00 }
+        {
+          "n": "Anne Hathaway",
+          "gd": "-400",
+          "dk": 1.25,
+          "b365": 1.3,
+          "wh": 1.33
+        },
+        {
+          "n": "Parker Posey",
+          "gd": "+350",
+          "dk": 4.5,
+          "b365": 4.2,
+          "wh": 5.0
+        },
+        {
+          "n": "M. di Girolamo",
+          "gd": "+500",
+          "dk": 6.0,
+          "b365": 5.8,
+          "wh": 6.5
+        },
+        {
+          "n": "Sandra Hüller",
+          "gd": "+700",
+          "dk": 8.0,
+          "b365": 7.5,
+          "wh": 8.5
+        },
+        {
+          "n": "Anya Taylor-Joy",
+          "gd": "+900",
+          "dk": 10.0,
+          "b365": 9.5,
+          "wh": 11.0
+        }
       ],
       "Beste Filmmusik": [
-        { "n": "L. Göransson",         "gd": "-600", "dk": 1.17, "b365": 1.20, "wh": 1.22 },
-        { "n": "H. Zimmer",            "gd": "+400", "dk": 5.00, "b365": 4.80, "wh": 5.50 },
-        { "n": "Carter Burwell",       "gd": "+700", "dk": 8.00, "b365": 7.50, "wh": 8.50 },
-        { "n": "Daniel Pemberton",     "gd": "+1000","dk": 11.00,"b365": 10.00,"wh": 12.00 },
-        { "n": "A. Desplat",           "gd": "+1300","dk": 14.00,"b365": 13.00,"wh": 15.00 }
+        {
+          "n": "L. Göransson",
+          "gd": "-600",
+          "dk": 1.17,
+          "b365": 1.2,
+          "wh": 1.22
+        },
+        {
+          "n": "H. Zimmer",
+          "gd": "+400",
+          "dk": 5.0,
+          "b365": 4.8,
+          "wh": 5.5
+        },
+        {
+          "n": "Carter Burwell",
+          "gd": "+700",
+          "dk": 8.0,
+          "b365": 7.5,
+          "wh": 8.5
+        },
+        {
+          "n": "Daniel Pemberton",
+          "gd": "+1000",
+          "dk": 11.0,
+          "b365": 10.0,
+          "wh": 12.0
+        },
+        {
+          "n": "A. Desplat",
+          "gd": "+1300",
+          "dk": 14.0,
+          "b365": 13.0,
+          "wh": 15.0
+        }
       ],
       "Beste Kamera": [
-        { "n": "E. Lubezki",           "gd": "-500", "dk": 1.20, "b365": 1.25, "wh": 1.28 },
-        { "n": "H. v. Hoytema",        "gd": "+350", "dk": 4.50, "b365": 4.20, "wh": 5.00 },
-        { "n": "Greig Fraser",         "gd": "+600", "dk": 7.00, "b365": 6.50, "wh": 7.50 },
-        { "n": "L. Sandgren",          "gd": "+800", "dk": 9.00, "b365": 8.50, "wh": 10.00 },
-        { "n": "T.V. Panduru",         "gd": "+1100","dk": 12.00,"b365": 11.00,"wh": 13.00 }
+        {
+          "n": "E. Lubezki",
+          "gd": "-500",
+          "dk": 1.2,
+          "b365": 1.25,
+          "wh": 1.28
+        },
+        {
+          "n": "H. v. Hoytema",
+          "gd": "+350",
+          "dk": 4.5,
+          "b365": 4.2,
+          "wh": 5.0
+        },
+        {
+          "n": "Greig Fraser",
+          "gd": "+600",
+          "dk": 7.0,
+          "b365": 6.5,
+          "wh": 7.5
+        },
+        {
+          "n": "L. Sandgren",
+          "gd": "+800",
+          "dk": 9.0,
+          "b365": 8.5,
+          "wh": 10.0
+        },
+        {
+          "n": "T.V. Panduru",
+          "gd": "+1100",
+          "dk": 12.0,
+          "b365": 11.0,
+          "wh": 13.0
+        }
       ],
       "Bester Schnitt": [
-        { "n": "Jennifer Lame",        "gd": "-450", "dk": 1.22, "b365": 1.28, "wh": 1.30 },
-        { "n": "Joe Walker",           "gd": "+350", "dk": 4.50, "b365": 4.20, "wh": 5.00 },
-        { "n": "Mirrione & O'Neill",   "gd": "+550", "dk": 6.50, "b365": 6.00, "wh": 7.00 },
-        { "n": "M.E.G. Nielsen",       "gd": "+750", "dk": 8.50, "b365": 8.00, "wh": 9.00 },
-        { "n": "Joel Negron",          "gd": "+900", "dk": 10.00,"b365": 9.50, "wh": 11.00 }
+        {
+          "n": "Jennifer Lame",
+          "gd": "-450",
+          "dk": 1.22,
+          "b365": 1.28,
+          "wh": 1.3
+        },
+        {
+          "n": "Joe Walker",
+          "gd": "+350",
+          "dk": 4.5,
+          "b365": 4.2,
+          "wh": 5.0
+        },
+        {
+          "n": "Mirrione & O'Neill",
+          "gd": "+550",
+          "dk": 6.5,
+          "b365": 6.0,
+          "wh": 7.0
+        },
+        {
+          "n": "M.E.G. Nielsen",
+          "gd": "+750",
+          "dk": 8.5,
+          "b365": 8.0,
+          "wh": 9.0
+        },
+        {
+          "n": "Joel Negron",
+          "gd": "+900",
+          "dk": 10.0,
+          "b365": 9.5,
+          "wh": 11.0
+        }
       ],
       "Bester Ton": [
-        { "n": "The Odyssey",          "gd": "-400", "dk": 1.25, "b365": 1.30, "wh": 1.33 },
-        { "n": "Dune: Part Three",     "gd": "+300", "dk": 4.00, "b365": 3.80, "wh": 4.20 },
-        { "n": "Digger",               "gd": "+600", "dk": 7.00, "b365": 6.50, "wh": 7.50 },
-        { "n": "Project Hail Mary",    "gd": "+800", "dk": 9.00, "b365": 8.50, "wh": 10.00 },
-        { "n": "Wild Horse Nine",      "gd": "+1000","dk": 11.00,"b365": 10.50,"wh": 12.00 }
+        {
+          "n": "The Odyssey",
+          "gd": "-400",
+          "dk": 1.25,
+          "b365": 1.3,
+          "wh": 1.33
+        },
+        {
+          "n": "Dune: Part Three",
+          "gd": "+300",
+          "dk": 4.0,
+          "b365": 3.8,
+          "wh": 4.2
+        },
+        {
+          "n": "Digger",
+          "gd": "+600",
+          "dk": 7.0,
+          "b365": 6.5,
+          "wh": 7.5
+        },
+        {
+          "n": "Project Hail Mary",
+          "gd": "+800",
+          "dk": 9.0,
+          "b365": 8.5,
+          "wh": 10.0
+        },
+        {
+          "n": "Wild Horse Nine",
+          "gd": "+1000",
+          "dk": 11.0,
+          "b365": 10.5,
+          "wh": 12.0
+        }
       ],
       "Beste Visuellen Effekte": [
-        { "n": "The Odyssey",          "gd": "-500", "dk": 1.20, "b365": 1.25, "wh": 1.28 },
-        { "n": "Dune: Part Three",     "gd": "+350", "dk": 4.50, "b365": 4.20, "wh": 5.00 },
-        { "n": "Project Hail Mary",    "gd": "+550", "dk": 6.50, "b365": 6.00, "wh": 7.00 },
-        { "n": "Michael",              "gd": "+1000","dk": 11.00,"b365": 10.00,"wh": 12.00 },
-        { "n": "Digger",               "gd": "+1200","dk": 13.00,"b365": 12.00,"wh": 14.00 }
+        {
+          "n": "The Odyssey",
+          "gd": "-500",
+          "dk": 1.2,
+          "b365": 1.25,
+          "wh": 1.28
+        },
+        {
+          "n": "Dune: Part Three",
+          "gd": "+350",
+          "dk": 4.5,
+          "b365": 4.2,
+          "wh": 5.0
+        },
+        {
+          "n": "Project Hail Mary",
+          "gd": "+550",
+          "dk": 6.5,
+          "b365": 6.0,
+          "wh": 7.0
+        },
+        {
+          "n": "Michael",
+          "gd": "+1000",
+          "dk": 11.0,
+          "b365": 10.0,
+          "wh": 12.0
+        },
+        {
+          "n": "Digger",
+          "gd": "+1200",
+          "dk": 13.0,
+          "b365": 12.0,
+          "wh": 14.0
+        }
       ],
       "Bestes Szenenbild": [
-        { "n": "The Odyssey",          "gd": "-450", "dk": 1.22, "b365": 1.28, "wh": 1.30 },
-        { "n": "Dune: Part Three",     "gd": "+350", "dk": 4.50, "b365": 4.20, "wh": 5.00 },
-        { "n": "Michael",              "gd": "+700", "dk": 8.00, "b365": 7.50, "wh": 8.50 },
-        { "n": "Wild Horse Nine",      "gd": "+900", "dk": 10.00,"b365": 9.50, "wh": 11.00 },
-        { "n": "Digger",               "gd": "+1100","dk": 12.00,"b365": 11.00,"wh": 13.00 }
+        {
+          "n": "The Odyssey",
+          "gd": "-450",
+          "dk": 1.22,
+          "b365": 1.28,
+          "wh": 1.3
+        },
+        {
+          "n": "Dune: Part Three",
+          "gd": "+350",
+          "dk": 4.5,
+          "b365": 4.2,
+          "wh": 5.0
+        },
+        {
+          "n": "Michael",
+          "gd": "+700",
+          "dk": 8.0,
+          "b365": 7.5,
+          "wh": 8.5
+        },
+        {
+          "n": "Wild Horse Nine",
+          "gd": "+900",
+          "dk": 10.0,
+          "b365": 9.5,
+          "wh": 11.0
+        },
+        {
+          "n": "Digger",
+          "gd": "+1100",
+          "dk": 12.0,
+          "b365": 11.0,
+          "wh": 13.0
+        }
       ],
       "Bestes Casting": [
-        { "n": "The Odyssey",          "gd": "-400", "dk": 1.25, "b365": 1.30, "wh": 1.33 },
-        { "n": "Wild Horse Nine",      "gd": "+300", "dk": 4.00, "b365": 3.80, "wh": 4.20 },
-        { "n": "Digger",               "gd": "+550", "dk": 6.50, "b365": 6.00, "wh": 7.00 },
-        { "n": "The Debut",            "gd": "+700", "dk": 8.00, "b365": 7.50, "wh": 8.50 },
-        { "n": "The Social Reckoning", "gd": "+900", "dk": 10.00,"b365": 9.50, "wh": 11.00 }
+        {
+          "n": "The Odyssey",
+          "gd": "-400",
+          "dk": 1.25,
+          "b365": 1.3,
+          "wh": 1.33
+        },
+        {
+          "n": "Wild Horse Nine",
+          "gd": "+300",
+          "dk": 4.0,
+          "b365": 3.8,
+          "wh": 4.2
+        },
+        {
+          "n": "Digger",
+          "gd": "+550",
+          "dk": 6.5,
+          "b365": 6.0,
+          "wh": 7.0
+        },
+        {
+          "n": "The Debut",
+          "gd": "+700",
+          "dk": 8.0,
+          "b365": 7.5,
+          "wh": 8.5
+        },
+        {
+          "n": "The Social Reckoning",
+          "gd": "+900",
+          "dk": 10.0,
+          "b365": 9.5,
+          "wh": 11.0
+        }
       ]
     }
   },
-
   "radar": [
-    { "lbl": "🔥 Heiß",        "lc": "r-hot",   "t": "The Debut",           "s": "A24 · Eisenberg · Dez. 2026",       "d": "Insiderzitat: »Moores karriere-beste Leistung«. Giamatti + Halle Bailey. Whiplash-Energie für Community Theater. A24 mit starker Kampagne.",       "tags": ["A24","TIFF","Moore","Giamatti","Dezember"] },
-    { "lbl": "🔥 Heiß",        "lc": "r-hot",   "t": "Digger",              "s": "Warner · Iñárritu · Okt. 2026",     "d": "Cruise total transformiert. Lubezki zurück. VistaVision-Format. Öko-Satire mit politischem Kern. Venice-Premiere Sep. 2026.",                      "tags": ["Iñárritu","Cruise","Lubezki","Oktober"] },
-    { "lbl": "👁 Beobachten",   "lc": "r-watch", "t": "Fjord",               "s": "Neon · Mungiu · Palme d'Or 2026",  "d": "2× Palme-d'Or-Regisseur. Reinsve + Stan. Neon-Distribution wie Parasite. Rumänisch-norwegisches Kultur-Drama.",                               "tags": ["Palme d'Or","Mungiu","Neon","Reinsve"] },
-    { "lbl": "👁 Beobachten",   "lc": "r-watch", "t": "Wild Horse Nine",     "s": "Searchlight · McDonagh · Nov. 2026","d": "Malkovich + Rockwell + Buscemi + Posey + Tom Waits. 1973 Chile. CIA. Venice-Premiere Sep. 2026.",                                             "tags": ["McDonagh","Malkovich","Rockwell","November"] },
-    { "lbl": "⚠ Risiko",       "lc": "r-risk",  "t": "Project Hail Mary",   "s": "Amazon · $677M · März 2026",       "d": "März-Release = 10 Monate vor Nominierungen. $677M + 95% RT sind stark — aber Erinnerungslücke ist real.",                                       "tags": ["März-Release","Gosling","95% RT","Amazon"] },
-    { "lbl": "⚠ Risiko",       "lc": "r-risk",  "t": "The Social Reckoning","s": "Sony · Sorkin · Okt. 2026",        "d": "Strong als Zuckerberg. Madison als Haugen. Kein Festival-Start. Sorkin ohne Fincher erstmals als Allein-Regisseur.",                            "tags": ["Sorkin","Strong","Madison","Oktober"] }
+    {
+      "lbl": "🔥 Heiß",
+      "lc": "r-hot",
+      "t": "The Debut",
+      "s": "A24 · Eisenberg · Dez. 2026",
+      "d": "Insiderzitat: »Moores karriere-beste Leistung«. Giamatti + Halle Bailey. Whiplash-Energie für Community Theater. A24 mit starker Kampagne.",
+      "tags": [
+        "A24",
+        "TIFF",
+        "Moore",
+        "Giamatti",
+        "Dezember"
+      ]
+    },
+    {
+      "lbl": "🔥 Heiß",
+      "lc": "r-hot",
+      "t": "Digger",
+      "s": "Warner · Iñárritu · Okt. 2026",
+      "d": "Cruise total transformiert. Lubezki zurück. VistaVision-Format. Öko-Satire mit politischem Kern. Venice-Premiere Sep. 2026.",
+      "tags": [
+        "Iñárritu",
+        "Cruise",
+        "Lubezki",
+        "Oktober"
+      ]
+    },
+    {
+      "lbl": "👁 Beobachten",
+      "lc": "r-watch",
+      "t": "Fjord",
+      "s": "Neon · Mungiu · Palme d'Or 2026",
+      "d": "2× Palme-d'Or-Regisseur. Reinsve + Stan. Neon-Distribution wie Parasite. Rumänisch-norwegisches Kultur-Drama.",
+      "tags": [
+        "Palme d'Or",
+        "Mungiu",
+        "Neon",
+        "Reinsve"
+      ]
+    },
+    {
+      "lbl": "👁 Beobachten",
+      "lc": "r-watch",
+      "t": "Wild Horse Nine",
+      "s": "Searchlight · McDonagh · Nov. 2026",
+      "d": "Malkovich + Rockwell + Buscemi + Posey + Tom Waits. 1973 Chile. CIA. Venice-Premiere Sep. 2026.",
+      "tags": [
+        "McDonagh",
+        "Malkovich",
+        "Rockwell",
+        "November"
+      ]
+    },
+    {
+      "lbl": "⚠ Risiko",
+      "lc": "r-risk",
+      "t": "Project Hail Mary",
+      "s": "Amazon · $677M · März 2026",
+      "d": "März-Release = 10 Monate vor Nominierungen. $677M + 95% RT sind stark — aber Erinnerungslücke ist real.",
+      "tags": [
+        "März-Release",
+        "Gosling",
+        "95% RT",
+        "Amazon"
+      ]
+    },
+    {
+      "lbl": "⚠ Risiko",
+      "lc": "r-risk",
+      "t": "The Social Reckoning",
+      "s": "Sony · Sorkin · Okt. 2026",
+      "d": "Strong als Zuckerberg. Madison als Haugen. Kein Festival-Start. Sorkin ohne Fincher erstmals als Allein-Regisseur.",
+      "tags": [
+        "Sorkin",
+        "Strong",
+        "Madison",
+        "Oktober"
+      ]
+    }
   ],
-
   "news": [
     {
-      "icon": "🎬", "type": "tg-festi", "tag": "Festival",
+      "icon": "🎬",
+      "type": "tg-festi",
+      "tag": "Festival",
       "title": "Venice 2026 — Was wir erwarten",
-      "date": "30. Aug. 2026", "author": "Redaktion OscarPrognose.de",
+      "date": "30. Aug. 2026",
+      "author": "Redaktion OscarPrognose.de",
       "body": "Der Countdown läuft: Ab 2. September öffnet das älteste Filmfestival der Welt seine Tore. Für die Oscar-Saison 2027 sind Digger (Iñárritu) und Wild Horse Nine (McDonagh) im Hauptwettbewerb bestätigt — beides potenzielle BP-Kandidaten, die hier ihre weltweite Kritiker-Premiere feiern. Der Goldene Löwe ist historisch kein verlässlicher Oscar-Prädiktor für Best Picture, aber Regie- und Schauspiel-Reaktionen aus Venedig beeinflussen die frühen Awards-Kampagnen erheblich. Besonderes Augenmerk gilt Diggers Kamera-Reaktionen: Drei Wochen nach Festivalende wird Lubezki-Momentum messbar sein."
     },
     {
-      "icon": "📊", "type": "tg-odds", "tag": "Wettquoten",
+      "icon": "📊",
+      "type": "tg-odds",
+      "tag": "Wettquoten",
       "title": "Moore bei 1.10 — engste Actress-Quote seit Jahren",
-      "date": "25. Aug. 2026", "author": "Redaktion OscarPrognose.de",
+      "date": "25. Aug. 2026",
+      "author": "Redaktion OscarPrognose.de",
       "body": "Julianne Moore ist für The Debut bereits jetzt die engste Actress-Favorit-Quote seit Cate Blanchett für Blue Jasmine (2014). Alle vier Hauptanbieter (GoldDerby, DraftKings, Bet365, William Hill) sind sich einig: Eine Quote unter 1.15 deutet auf consensus-Favorit hin. The Debut erscheint am 11. Dezember 2026 — die Kampagne hat ideales Timing. Paul Giamattis Nebendarsteller-Quote liegt bereits bei 1.20 bis 1.25, was historisch früh für Pre-Venice-Einschätzungen ist."
     },
     {
-      "icon": "🔍", "type": "tg-upd", "tag": "Analyse",
+      "icon": "🔍",
+      "type": "tg-upd",
+      "tag": "Analyse",
       "title": "Lubezki oder van Hoytema — die Kamera-Entscheidung des Jahres",
-      "date": "18. Aug. 2026", "author": "Redaktion OscarPrognose.de",
+      "date": "18. Aug. 2026",
+      "author": "Redaktion OscarPrognose.de",
       "body": "Emmanuel Lubezki hat dreimal in Folge gewonnen (Gravity, Birdman, Revenant 2014–2016). 2027 kehrt er mit Digger zurück. Gleichzeitig dreht Hoyte van Hoytema The Odyssey vollständig in IMAX 70mm — eine technische Pionierleistung. Historisch bevorzugt die Academy den Kameramann des Frontrunner-Films. Falls The Odyssey Best Picture gewinnt, ist van Hoytema der statistische Favorit. Falls Digger die Award-Season dominiert, ist Lubezki die romantischere Story. Die Venice-Reaktion wird entscheidend sein."
     },
     {
-      "icon": "🌍", "type": "tg-festi", "tag": "Cannes 2026",
+      "icon": "🌍",
+      "type": "tg-festi",
+      "tag": "Cannes 2026",
       "title": "Rückblick: Was Cannes 2026 für den Oscar bedeutet",
-      "date": "2. Jun. 2026", "author": "Redaktion OscarPrognose.de",
+      "date": "2. Jun. 2026",
+      "author": "Redaktion OscarPrognose.de",
       "body": "Cristian Mungius Fjord gewann die Palme d'Or — erst zum zweiten Mal für den rumänischen Regisseur. Pawel Pawlikowski (Fatherland) und die Spanier Ambrossi & Calvo (La Bola Negra) teilten sich den Regie-Preis. Das historische Muster: Palme-d'Or-Sieger werden nahezu immer für Internationalen Film nominiert. Neon als Distributor schaffte das mit Parasite, Titane und Triangle of Sadness. Fjords Academy-Nominierung gilt als gesichert. Für Best Picture ist die Palme kein verlässlicher Indikator, aber für Best Director kann Mungiu stark punkten."
+    }
+  ],
+  "winners2026": [
+    {
+      "de": "Bester Film",
+      "emoji": "🎬",
+      "winner": "One Battle After Another",
+      "wins": 6,
+      "note": "6 Oscars — meistausgezeichneter Film der Nacht",
+      "noms": [
+        {
+          "n": "Bugonia",
+          "c": "Yorgos Lanthimos",
+          "win": false
+        },
+        {
+          "n": "F1",
+          "c": "Joseph Kosinski · Brad Pitt",
+          "win": false
+        },
+        {
+          "n": "Frankenstein",
+          "c": "Guillermo del Toro",
+          "win": false
+        },
+        {
+          "n": "Hamnet",
+          "c": "Chloé Zhao · Steven Spielberg",
+          "win": false
+        },
+        {
+          "n": "Marty Supreme",
+          "c": "Josh Safdie",
+          "win": false
+        },
+        {
+          "n": "One Battle After Another",
+          "c": "Paul Thomas Anderson",
+          "win": true
+        },
+        {
+          "n": "The Secret Agent",
+          "c": "Kleber Mendonça Filho",
+          "win": false
+        },
+        {
+          "n": "Sentimental Value",
+          "c": "Joachim Trier",
+          "win": false
+        },
+        {
+          "n": "Sinners",
+          "c": "Ryan Coogler",
+          "win": false
+        },
+        {
+          "n": "Train Dreams",
+          "c": "Clint Bentley & Greg Kwedar",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Beste Regie",
+      "emoji": "🎥",
+      "winner": "Paul Thomas Anderson",
+      "wins": 1,
+      "note": "One Battle After Another",
+      "noms": [
+        {
+          "n": "Chloé Zhao",
+          "c": "Hamnet",
+          "win": false
+        },
+        {
+          "n": "Josh Safdie",
+          "c": "Marty Supreme",
+          "win": false
+        },
+        {
+          "n": "Paul Thomas Anderson",
+          "c": "One Battle After Another",
+          "win": true
+        },
+        {
+          "n": "Joachim Trier",
+          "c": "Sentimental Value",
+          "win": false
+        },
+        {
+          "n": "Ryan Coogler",
+          "c": "Sinners",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bester Hauptdarsteller",
+      "emoji": "🎭",
+      "winner": "Michael B. Jordan",
+      "wins": 1,
+      "note": "Sinners (Doppelrolle als Zwillinge)",
+      "noms": [
+        {
+          "n": "Timothée Chalamet",
+          "c": "Marty Supreme",
+          "win": false
+        },
+        {
+          "n": "Leonardo DiCaprio",
+          "c": "One Battle After Another",
+          "win": false
+        },
+        {
+          "n": "Ethan Hawke",
+          "c": "Blue Moon",
+          "win": false
+        },
+        {
+          "n": "Michael B. Jordan",
+          "c": "Sinners",
+          "win": true
+        },
+        {
+          "n": "Wagner Moura",
+          "c": "The Secret Agent",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Beste Hauptdarstellerin",
+      "emoji": "🌟",
+      "winner": "Jessie Buckley",
+      "wins": 1,
+      "note": "Hamnet — erste Oscar-Nominierung und -Sieg",
+      "noms": [
+        {
+          "n": "Jessie Buckley",
+          "c": "Hamnet",
+          "win": true
+        },
+        {
+          "n": "Rose Byrne",
+          "c": "If I Had Legs I'd Kick You",
+          "win": false
+        },
+        {
+          "n": "Kate Hudson",
+          "c": "Song Sung Blue",
+          "win": false
+        },
+        {
+          "n": "Renate Reinsve",
+          "c": "Sentimental Value",
+          "win": false
+        },
+        {
+          "n": "Emma Stone",
+          "c": "Bugonia",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bester Nebendarsteller",
+      "emoji": "🃏",
+      "winner": "Sean Penn",
+      "wins": 1,
+      "note": "One Battle After Another",
+      "noms": [
+        {
+          "n": "Benicio del Toro",
+          "c": "One Battle After Another",
+          "win": false
+        },
+        {
+          "n": "Jacob Elordi",
+          "c": "Frankenstein",
+          "win": false
+        },
+        {
+          "n": "Delroy Lindo",
+          "c": "Sinners",
+          "win": false
+        },
+        {
+          "n": "Sean Penn",
+          "c": "One Battle After Another",
+          "win": true
+        },
+        {
+          "n": "Stellan Skarsgård",
+          "c": "Sentimental Value",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Beste Nebendarstellerin",
+      "emoji": "💫",
+      "winner": "Amy Madigan",
+      "wins": 1,
+      "note": "Weapons — erster Oscar nach 40 Jahren Karriere",
+      "noms": [
+        {
+          "n": "Elle Fanning",
+          "c": "Sentimental Value",
+          "win": false
+        },
+        {
+          "n": "Inga Ibsdotter Lilleaas",
+          "c": "Sentimental Value",
+          "win": false
+        },
+        {
+          "n": "Amy Madigan",
+          "c": "Weapons",
+          "win": true
+        },
+        {
+          "n": "Wunmi Mosaku",
+          "c": "Sinners",
+          "win": false
+        },
+        {
+          "n": "Teyana Taylor",
+          "c": "One Battle After Another",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bestes Originaldrehbuch",
+      "emoji": "✍️",
+      "winner": "Ryan Coogler",
+      "wins": 1,
+      "note": "Sinners",
+      "noms": [
+        {
+          "n": "Robert Kaplow",
+          "c": "Blue Moon",
+          "win": false
+        },
+        {
+          "n": "Jafar Panahi et al.",
+          "c": "It Was Just an Accident",
+          "win": false
+        },
+        {
+          "n": "Bronstein & Safdie",
+          "c": "Marty Supreme",
+          "win": false
+        },
+        {
+          "n": "Eskil Vogt & Joachim Trier",
+          "c": "Sentimental Value",
+          "win": false
+        },
+        {
+          "n": "Ryan Coogler",
+          "c": "Sinners",
+          "win": true
+        }
+      ]
+    },
+    {
+      "de": "Bestes adaptiertes Drehbuch",
+      "emoji": "📖",
+      "winner": "Paul Thomas Anderson",
+      "wins": 1,
+      "note": "One Battle After Another (nach Pynchon's »Vineland«)",
+      "noms": [
+        {
+          "n": "Will Tracy",
+          "c": "Bugonia",
+          "win": false
+        },
+        {
+          "n": "Guillermo del Toro",
+          "c": "Frankenstein",
+          "win": false
+        },
+        {
+          "n": "Chloé Zhao & Maggie O'Farrell",
+          "c": "Hamnet",
+          "win": false
+        },
+        {
+          "n": "Paul Thomas Anderson",
+          "c": "One Battle After Another",
+          "win": true
+        },
+        {
+          "n": "Bentley & Kwedar",
+          "c": "Train Dreams",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bester Animationsfilm",
+      "emoji": "✨",
+      "winner": "KPop Demon Hunters",
+      "wins": 1,
+      "note": "Maggie Kang, Chris Appelhans & Michelle L.M. Wong",
+      "noms": [
+        {
+          "n": "Arco",
+          "c": "Bienvenu · de Givry · Portman",
+          "win": false
+        },
+        {
+          "n": "Elio",
+          "c": "Pixar · Sharafian · Shi",
+          "win": false
+        },
+        {
+          "n": "KPop Demon Hunters",
+          "c": "Kang · Appelhans · Wong",
+          "win": true
+        },
+        {
+          "n": "Little Amélie",
+          "c": "Vallade · Han · Santiago",
+          "win": false
+        },
+        {
+          "n": "Zootopia 2",
+          "c": "Disney · Bush · Howard",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bester Internationaler Film",
+      "emoji": "🌍",
+      "winner": "Sentimental Value",
+      "wins": 1,
+      "note": "Norwegen · Joachim Trier",
+      "noms": [
+        {
+          "n": "The Secret Agent (Brasilien)",
+          "c": "Kleber Mendonça Filho · Portugiesisch",
+          "win": false
+        },
+        {
+          "n": "It Was Just an Accident (Frankreich)",
+          "c": "Jafar Panahi · Persisch",
+          "win": false
+        },
+        {
+          "n": "Sentimental Value (Norwegen)",
+          "c": "Joachim Trier · Norwegisch",
+          "win": true
+        },
+        {
+          "n": "Sirāt (Spanien)",
+          "c": "Oliver Laxe · Spanisch/Arabisch",
+          "win": false
+        },
+        {
+          "n": "The Voice of Hind Rajab (Tunesien)",
+          "c": "Kaouther Ben Hania · Arabisch",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bester Dokumentarfilm",
+      "emoji": "🎞️",
+      "winner": "Mr. Nobody Against Putin",
+      "wins": 1,
+      "note": "Borenstein · Talankin · Faber · Karásková",
+      "noms": [
+        {
+          "n": "The Alabama Solution",
+          "c": "Andrew Jarecki",
+          "win": false
+        },
+        {
+          "n": "Come See Me in the Good Light",
+          "c": "Ryan White · Tig Notaro",
+          "win": false
+        },
+        {
+          "n": "Cutting Through Rocks",
+          "c": "Sara Khaki",
+          "win": false
+        },
+        {
+          "n": "Mr. Nobody Against Putin",
+          "c": "Borenstein · Talankin",
+          "win": true
+        },
+        {
+          "n": "The Perfect Neighbor",
+          "c": "Geeta Gandbhir",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Beste Kurzdokumentation",
+      "emoji": "📽️",
+      "winner": "All the Empty Rooms",
+      "wins": 1,
+      "note": "Joshua Seftel & Conall Jones",
+      "noms": [
+        {
+          "n": "All the Empty Rooms",
+          "c": "Seftel & Jones",
+          "win": true
+        },
+        {
+          "n": "Armed Only with a Camera",
+          "c": "Craig Renaud & Juan Arredondo",
+          "win": false
+        },
+        {
+          "n": "Children No More",
+          "c": "Hilla Medalia",
+          "win": false
+        },
+        {
+          "n": "The Devil Is Busy",
+          "c": "Hampton & Gandbhir",
+          "win": false
+        },
+        {
+          "n": "Perfectly a Strangeness",
+          "c": "Alison McAlpine",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bester Animierter Kurzfilm",
+      "emoji": "🖌️",
+      "winner": "The Girl Who Cried Pearls",
+      "wins": 1,
+      "note": "Chris Lavis & Maciek Szczerbowski",
+      "noms": [
+        {
+          "n": "Butterfly",
+          "c": "Florence Miailhe & Ron Dyens",
+          "win": false
+        },
+        {
+          "n": "Forevergreen",
+          "c": "Engelhardt & Spears",
+          "win": false
+        },
+        {
+          "n": "The Girl Who Cried Pearls",
+          "c": "Lavis & Szczerbowski",
+          "win": true
+        },
+        {
+          "n": "Retirement Plan",
+          "c": "Kelly & Freedman",
+          "win": false
+        },
+        {
+          "n": "The Three Sisters",
+          "c": "Konstantin Bronzit",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bester Kurzfilm (Realfilm)",
+      "emoji": "🎬",
+      "winner": "The Singers + Two People Exchanging Saliva (ex aequo)",
+      "wins": 1,
+      "note": "Historisches Unentschieden",
+      "noms": [
+        {
+          "n": "Butcher's Stain",
+          "c": "Levinson-Blount & Caspi",
+          "win": false
+        },
+        {
+          "n": "A Friend of Dorothy",
+          "c": "Knight & Dean",
+          "win": false
+        },
+        {
+          "n": "Jane Austen's Period Drama",
+          "c": "Aks & Pinder",
+          "win": false
+        },
+        {
+          "n": "The Singers ★",
+          "c": "Sam A. Davis & Jack Piatt",
+          "win": true
+        },
+        {
+          "n": "Two People Exchanging Saliva ★",
+          "c": "Singh & Musteata",
+          "win": true
+        }
+      ]
+    },
+    {
+      "de": "Bestes Casting",
+      "emoji": "🎪",
+      "winner": "One Battle After Another",
+      "wins": 1,
+      "note": "Cassandra Kulukundis — erste Verleihung dieser Kategorie",
+      "noms": [
+        {
+          "n": "Hamnet",
+          "c": "Nina Gold",
+          "win": false
+        },
+        {
+          "n": "Marty Supreme",
+          "c": "Jennifer Venditti",
+          "win": false
+        },
+        {
+          "n": "One Battle After Another",
+          "c": "Cassandra Kulukundis",
+          "win": true
+        },
+        {
+          "n": "The Secret Agent",
+          "c": "Gabriel Domingues",
+          "win": false
+        },
+        {
+          "n": "Sinners",
+          "c": "Francine Maisler",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Beste Kamera",
+      "emoji": "📷",
+      "winner": "Autumn Durald Arkapaw",
+      "wins": 1,
+      "note": "Sinners — erste afroamerikanische Frau, die diese Kategorie gewinnt",
+      "noms": [
+        {
+          "n": "Dan Laustsen",
+          "c": "Frankenstein",
+          "win": false
+        },
+        {
+          "n": "Darius Khondji",
+          "c": "Marty Supreme",
+          "win": false
+        },
+        {
+          "n": "Michael Bauman",
+          "c": "One Battle After Another",
+          "win": false
+        },
+        {
+          "n": "Autumn Durald Arkapaw",
+          "c": "Sinners",
+          "win": true
+        },
+        {
+          "n": "Adolpho Veloso",
+          "c": "Train Dreams",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bestes Kostümbild",
+      "emoji": "👗",
+      "winner": "Kate Hawley",
+      "wins": 1,
+      "note": "Frankenstein",
+      "noms": [
+        {
+          "n": "Deborah L. Scott",
+          "c": "Avatar: Fire and Ash",
+          "win": false
+        },
+        {
+          "n": "Kate Hawley",
+          "c": "Frankenstein",
+          "win": true
+        },
+        {
+          "n": "Malgosia Turzanska",
+          "c": "Hamnet",
+          "win": false
+        },
+        {
+          "n": "Miyako Bellizzi",
+          "c": "Marty Supreme",
+          "win": false
+        },
+        {
+          "n": "Ruth E. Carter",
+          "c": "Sinners",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bester Schnitt",
+      "emoji": "✂️",
+      "winner": "Andy Jurgensen",
+      "wins": 1,
+      "note": "One Battle After Another",
+      "noms": [
+        {
+          "n": "Stephen Mirrione",
+          "c": "F1",
+          "win": false
+        },
+        {
+          "n": "Bronstein & Safdie",
+          "c": "Marty Supreme",
+          "win": false
+        },
+        {
+          "n": "Andy Jurgensen",
+          "c": "One Battle After Another",
+          "win": true
+        },
+        {
+          "n": "Olivier Bugge Coutté",
+          "c": "Sentimental Value",
+          "win": false
+        },
+        {
+          "n": "Michael Shawver",
+          "c": "Sinners",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bestes Make-up & Frisuren",
+      "emoji": "💄",
+      "winner": "Mike Hill, Jordan Samuel, Cliona Furey",
+      "wins": 1,
+      "note": "Frankenstein",
+      "noms": [
+        {
+          "n": "Hill · Samuel · Furey",
+          "c": "Frankenstein",
+          "win": true
+        },
+        {
+          "n": "Toyokawa · Hibino · Nishimatsu",
+          "c": "Kokuho",
+          "win": false
+        },
+        {
+          "n": "Diaz · Fontaine · Terry",
+          "c": "Sinners",
+          "win": false
+        },
+        {
+          "n": "Kazu Hiro · Griffin · Rehbein",
+          "c": "The Smashing Machine",
+          "win": false
+        },
+        {
+          "n": "Foldberg · Sauerberg",
+          "c": "The Ugly Stepsister",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bestes Szenenbild",
+      "emoji": "🏛️",
+      "winner": "Frankenstein",
+      "wins": 1,
+      "note": "Tamara Deverell · Shane Vieau",
+      "noms": [
+        {
+          "n": "Deverell · Vieau",
+          "c": "Frankenstein",
+          "win": true
+        },
+        {
+          "n": "Crombie · Felton",
+          "c": "Hamnet",
+          "win": false
+        },
+        {
+          "n": "Jack Fisk · Adam Willis",
+          "c": "Marty Supreme",
+          "win": false
+        },
+        {
+          "n": "Martin · Carlino",
+          "c": "One Battle After Another",
+          "win": false
+        },
+        {
+          "n": "Beachler · Champagne",
+          "c": "Sinners",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Beste Filmmusik",
+      "emoji": "🎵",
+      "winner": "Ludwig Göransson",
+      "wins": 1,
+      "note": "Sinners",
+      "noms": [
+        {
+          "n": "Jerskin Fendrix",
+          "c": "Bugonia",
+          "win": false
+        },
+        {
+          "n": "Alexandre Desplat",
+          "c": "Frankenstein",
+          "win": false
+        },
+        {
+          "n": "Max Richter",
+          "c": "Hamnet",
+          "win": false
+        },
+        {
+          "n": "Jonny Greenwood",
+          "c": "One Battle After Another",
+          "win": false
+        },
+        {
+          "n": "Ludwig Göransson",
+          "c": "Sinners",
+          "win": true
+        }
+      ]
+    },
+    {
+      "de": "Bester Originalsong",
+      "emoji": "🎤",
+      "winner": "»Golden« — KPop Demon Hunters",
+      "wins": 1,
+      "note": "Ejae · Sonnenblick · Teddy · Eisendrath",
+      "noms": [
+        {
+          "n": "»Dear Me«",
+          "c": "Diane Warren — Diane Warren: Relentless",
+          "win": false
+        },
+        {
+          "n": "»Golden« ★",
+          "c": "Ejae · Teddy · Eisendrath — KPop Demon Hunters",
+          "win": true
+        },
+        {
+          "n": "»I Lied to You«",
+          "c": "Saadiq & Göransson — Sinners",
+          "win": false
+        },
+        {
+          "n": "»Sweet Dreams of Joy«",
+          "c": "Nicholas Pike — Viva Verdi!",
+          "win": false
+        },
+        {
+          "n": "»Train Dreams«",
+          "c": "Nick Cave & Bryce Dessner — Train Dreams",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Bester Ton",
+      "emoji": "🔊",
+      "winner": "F1",
+      "wins": 1,
+      "note": "Gareth John · Al Nelson · Gary A. Rizzo",
+      "noms": [
+        {
+          "n": "John · Nelson · Whittle · Rizzo",
+          "c": "F1",
+          "win": true
+        },
+        {
+          "n": "Chapman · Robitaille · Ferreira",
+          "c": "Frankenstein",
+          "win": false
+        },
+        {
+          "n": "García · Scarabosio · Villaflor",
+          "c": "One Battle After Another",
+          "win": false
+        },
+        {
+          "n": "Welcker · Burtt · Pacheco",
+          "c": "Sinners",
+          "win": false
+        },
+        {
+          "n": "Villavieja · Casanovas · Praderas",
+          "c": "Sirāt",
+          "win": false
+        }
+      ]
+    },
+    {
+      "de": "Beste Visuellen Effekte",
+      "emoji": "⚡",
+      "winner": "Avatar: Fire and Ash",
+      "wins": 1,
+      "note": "Joe Letteri · Richard Baneham · Eric Saindon",
+      "noms": [
+        {
+          "n": "Letteri · Baneham · Saindon",
+          "c": "Avatar: Fire and Ash",
+          "win": true
+        },
+        {
+          "n": "Tudhope · Harrington · Chevallier",
+          "c": "F1",
+          "win": false
+        },
+        {
+          "n": "Vickery · Aplin · Chan",
+          "c": "Jurassic World Rebirth",
+          "win": false
+        },
+        {
+          "n": "Noble · Zaretti · Bowen",
+          "c": "The Lost Bus",
+          "win": false
+        },
+        {
+          "n": "Ralla · Nordahl · Wolter",
+          "c": "Sinners",
+          "win": false
+        }
+      ]
+    }
+  ],
+  "films": [
+    {
+      "title": "The Odyssey",
+      "year": 2026,
+      "director": "Christopher Nolan",
+      "studio": "Universal Pictures",
+      "release": "17. Juli 2026",
+      "runtime": "173 Min.",
+      "language": "Englisch",
+      "genre": [
+        "Epos",
+        "Abenteuer",
+        "Mythologie"
+      ],
+      "synopsis": "Odysseus, König von Ithaka, kehrt nach dem Fall Trojas auf einem epischen, jahrzehntelangen Heimweg durch das Mittelmeer heim — verfolgt von Göttern, bezaubert von Nymphen, bedroht von Ungeheuern. Nolan adaptiert Homers Urwerk als menschliches Drama über Verlust, Sehnsucht und die Frage, was Heimkehr bedeutet.",
+      "cast": [
+        "Matt Damon (Odysseus)",
+        "Anne Hathaway (Penelope)",
+        "Tom Holland (Telemachus)",
+        "Robert Pattinson (Antinous)",
+        "Zendaya (Athena)",
+        "Charlize Theron (Kalypso)",
+        "Lupita Nyong'o (Helena/Klytaimnestra)",
+        "Samantha Morton (Kirke)",
+        "Elliot Page",
+        "Jon Bernthal"
+      ],
+      "crew": {
+        "Regie": "Christopher Nolan",
+        "Kamera": "Hoyte van Hoytema",
+        "Schnitt": "Jennifer Lame",
+        "Musik": "Ludwig Göransson",
+        "Drehbuch": "Christopher Nolan",
+        "Produktion": "Emma Thomas & Christopher Nolan"
+      },
+      "rt_critics": 95,
+      "rt_audience": 97,
+      "imdb": 8.4,
+      "metacritic": 89,
+      "budget": "250 Mio. $",
+      "boxoffice": "1,553 Mrd. $",
+      "awards_predicted": [
+        "Bester Film",
+        "Beste Regie",
+        "Beste Kamera",
+        "Beste Filmmusik",
+        "Bester Schnitt",
+        "Beste Visuellen Effekte",
+        "Bestes Szenenbild",
+        "Bester Ton",
+        "Bestes Casting"
+      ],
+      "status": "released"
+    },
+    {
+      "title": "Project Hail Mary",
+      "year": 2026,
+      "director": "Phil Lord & Christopher Miller",
+      "studio": "Amazon MGM Studios",
+      "release": "20. März 2026",
+      "runtime": "156 Min.",
+      "language": "Englisch",
+      "genre": [
+        "Sci-Fi",
+        "Abenteuer",
+        "Drama"
+      ],
+      "synopsis": "Ryland Grace (Ryan Gosling), ein Schullehrer, erwacht allein auf einem Raumschiff mit Amnesie — Lichtjahre von der Erde entfernt. Während seine Erinnerungen zurückkehren, begreift er: er ist die letzte Hoffnung der Menschheit, die Sonne zu retten. Und er ist nicht allein.",
+      "cast": [
+        "Ryan Gosling (Ryland Grace)",
+        "Sandra Hüller (Eva Stratt)",
+        "James Ortiz (Rocky, Motion Capture)",
+        "Lionel Boyce",
+        "Meryl Streep (Voice Cameo)"
+      ],
+      "crew": {
+        "Regie": "Phil Lord & Christopher Miller",
+        "Kamera": "Greig Fraser",
+        "Musik": "Daniel Pemberton",
+        "Drehbuch": "Drew Goddard",
+        "Vorlage": "Roman von Andy Weir"
+      },
+      "rt_critics": 94,
+      "rt_audience": 95,
+      "imdb": 8.3,
+      "metacritic": null,
+      "budget": "200 Mio. $",
+      "boxoffice": "677 Mio. $",
+      "awards_predicted": [
+        "Bester Hauptdarsteller",
+        "Bester Schnitt",
+        "Beste Kamera",
+        "Beste Visuellen Effekte"
+      ],
+      "status": "released"
+    },
+    {
+      "title": "Michael",
+      "year": 2026,
+      "director": "Antoine Fuqua",
+      "studio": "Lionsgate",
+      "release": "24. April 2026",
+      "runtime": "148 Min.",
+      "language": "Englisch",
+      "genre": [
+        "Biopic",
+        "Musik",
+        "Drama"
+      ],
+      "synopsis": "Das Leben und die Karriere von Michael Jackson — von den frühen Jackson-5-Jahren bis zum Beginn seiner weltberühmten Solo-Karriere 1988. Der Film konzentriert sich auf die Musik und Bühnenmagie, ohne die späteren Kontroversen zu thematisieren.",
+      "cast": [
+        "Jaafar Jackson (Michael Jackson)",
+        "Juliano Krue Valdi (Young Michael)",
+        "Colman Domingo (Joe Jackson)",
+        "Nia Long (Katherine Jackson)",
+        "Miles Teller (John Branca)",
+        "Laura Harrier",
+        "Larenz Tate"
+      ],
+      "crew": {
+        "Regie": "Antoine Fuqua",
+        "Drehbuch": "John Logan",
+        "Kamera": "Dion Beebe",
+        "Produktion": "Graham King · John Branca"
+      },
+      "rt_critics": 40,
+      "rt_audience": 94,
+      "imdb": null,
+      "metacritic": null,
+      "budget": "150 Mio. $",
+      "boxoffice": "846 Mio. $",
+      "awards_predicted": [
+        "Bestes Szenenbild",
+        "Bestes Make-up",
+        "Bester Nebendarsteller (Domingo)"
+      ],
+      "note": "Publikumsphänomen trotz gespaltener Kritiken. Bohemian Rhapsody-Effekt.",
+      "status": "released"
+    },
+    {
+      "title": "Fjord",
+      "year": 2026,
+      "director": "Cristian Mungiu",
+      "studio": "Neon (USA) · Le Pacte (FR)",
+      "release": "18. Mai 2026 (Cannes) · 9. Okt. 2026 (USA)",
+      "runtime": "146 Min.",
+      "language": "Englisch / Rumänisch / Norwegisch",
+      "genre": [
+        "Drama",
+        "Thriller",
+        "Sozialkritik"
+      ],
+      "synopsis": "Eine rumänische Familie, die nach Norwegen ausgewandert ist, gerät in den Verdacht der Kindesmisshandlung. Was als soziales Drama beginnt, wird zu einer erschütternden Untersuchung von Schuld, kultureller Andersartigkeit und dem Versagen von Systemen.",
+      "cast": [
+        "Sebastian Stan (Gheorghiu)",
+        "Renate Reinsve",
+        "Lisa Carlehed",
+        "Ellen Dorrit Petersen"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Cristian Mungiu",
+        "Kamera": "Tudor Vladimir Panduru",
+        "Schnitt": "Mircea Olteanu",
+        "Musik": "Kaspar Kaae"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "festival": "Palme d'Or Cannes 2026 · François Chalais Prize · FIPRESCI Prize",
+      "awards_predicted": [
+        "Bester Internationaler Film",
+        "Beste Hauptdarstellerin (Reinsve)",
+        "Beste Regie",
+        "Bester Film"
+      ],
+      "status": "cannes_winner"
+    },
+    {
+      "title": "Fatherland",
+      "year": 2026,
+      "director": "Paweł Pawlikowski",
+      "studio": "MUBI",
+      "release": "Cannes 2026",
+      "runtime": "95 Min.",
+      "language": "Deutsch / Englisch / Polnisch",
+      "genre": [
+        "Biopic",
+        "Historisch",
+        "Road Movie"
+      ],
+      "synopsis": "Erika Mann und ihr Vater Thomas Mann fahren 1933 durch ein sich veränderndes Deutschland — ein Abschied von einer Welt, die es bald nicht mehr geben wird. Pawlikowski kombiniert seinen minimalistischen Stil (Ida, Cold War) mit dem Gewicht zweier der wichtigsten Literaten des 20. Jahrhunderts.",
+      "cast": [
+        "Sandra Hüller (Erika Mann)",
+        "Hanns Zischler (Thomas Mann)",
+        "August Diehl"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Paweł Pawlikowski",
+        "Kamera": "Łukasz Żal",
+        "Produktion": "Pawlikowski & Handloegten"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "festival": "Cannes 2026 — Bester Regie (geteilt)",
+      "awards_predicted": [
+        "Beste Hauptdarstellerin (Hüller)",
+        "Bester Internationaler Film",
+        "Beste Regie",
+        "Bestes adaptiertes Drehbuch"
+      ],
+      "status": "festival"
+    },
+    {
+      "title": "La Bola Negra",
+      "year": 2026,
+      "director": "Javier Ambrossi & Javier Calvo",
+      "studio": "Netflix",
+      "release": "Cannes 2026",
+      "runtime": "131 Min.",
+      "language": "Spanisch",
+      "genre": [
+        "Drama",
+        "LGBTQ+",
+        "Historisch"
+      ],
+      "synopsis": "Inspiriert von Federico García Lorca und seiner Welt: Drei Zeitebenen (1930er Spanien, zeitgenössisches Madrid, nahe Zukunft) verbinden sich zu einem Meditations über Kunst, Identität und die unterdrückte Seele Spaniens.",
+      "cast": [
+        "Penélope Cruz",
+        "Guitarricadelafuente (Debütrolle)",
+        "Chanel Terrero",
+        "Omar Ayuso",
+        "Paco León"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Javier Ambrossi & Javier Calvo",
+        "Produktion": "Netflix Spanien"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "festival": "Cannes 2026 — Bester Regie (geteilt)",
+      "awards_predicted": [
+        "Bester Internationaler Film",
+        "Beste Hauptdarstellerin (Cruz)",
+        "Bestes Originaldrehbuch"
+      ],
+      "status": "festival"
+    },
+    {
+      "title": "All of a Sudden",
+      "year": 2026,
+      "director": "Ryûsuke Hamaguchi",
+      "studio": "Neon",
+      "release": "Cannes 2026",
+      "runtime": "178 Min.",
+      "language": "Japanisch / Französisch",
+      "genre": [
+        "Drama",
+        "Arthouse"
+      ],
+      "synopsis": "Eine japanisch-französische Koproduktion über Trauer, Sprache und die Unfähigkeit, das Unerwartete zu benennen. Hamaguchi kehrt nach Drive My Car zur langen Beobachtung zurück — diesmal mit Virginie Efira und Tao Okamoto in zwei parallelen Erzählsträngen.",
+      "cast": [
+        "Virginie Efira",
+        "Tao Okamoto"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Ryûsuke Hamaguchi",
+        "Kamera": "Ryutaro Mishima"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "festival": "Cannes 2026 — Bestes Ensemble (Efira & Okamoto ex aequo)",
+      "awards_predicted": [
+        "Beste Hauptdarstellerin",
+        "Bester Internationaler Film",
+        "Beste Regie"
+      ],
+      "status": "festival"
+    },
+    {
+      "title": "Minotaur",
+      "year": 2026,
+      "director": "Andrey Zvyagintsev",
+      "studio": "MUBI",
+      "release": "Cannes 2026",
+      "runtime": "158 Min.",
+      "language": "Russisch / Französisch",
+      "genre": [
+        "Drama",
+        "Politisch",
+        "Arthouse"
+      ],
+      "synopsis": "Zvyagintsevs erstes Werk nach dem erzwungenen Exil aus Russland: Eine russische Familie im Pariser Exil kämpft mit Schuld, Identitätsverlust und der Unmöglichkeit der Heimkehr. Das mythologische Labyrinth des Titels wird zur Metapher für das Putin-Russland.",
+      "cast": [
+        "Alexei Serebryakov",
+        "Victoire Du Bois"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Andrey Zvyagintsev"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "festival": "Cannes 2026 — Grand Prix",
+      "awards_predicted": [
+        "Bester Internationaler Film",
+        "Bester Film (außerkonkurrenzierend)"
+      ],
+      "status": "festival"
+    },
+    {
+      "title": "Digger",
+      "year": 2026,
+      "director": "Alejandro González Iñárritu",
+      "studio": "Warner Bros.",
+      "release": "2. Okt. 2026 (Venice-Premiere Sep. 2026)",
+      "runtime": "145 Min.",
+      "language": "Englisch",
+      "genre": [
+        "Satire",
+        "Drama",
+        "Thriller"
+      ],
+      "synopsis": "Digger Rockwell (Tom Cruise), milliardenschwerer Öl-Baron aus dem Süden, beschließt nach einer spirituellen Krise, die Welt zu 'retten' — und beginnt eine quixotische Mission, die zwischen Größenwahn und echtem Idealismus oszilliert. Iñárritus schwarze Komödie über Klimakrise, Konzernmacht und die Absurdität des amerikanischen Rettersyndroms.",
+      "cast": [
+        "Tom Cruise (Digger Rockwell)",
+        "Sandra Hüller (Haushälterin)",
+        "Jesse Plemons",
+        "Riz Ahmed",
+        "John Goodman (Präsident)",
+        "Emma D'Arcy"
+      ],
+      "crew": {
+        "Regie": "A.G. Iñárritu",
+        "Kamera": "Emmanuel Lubezki",
+        "Drehbuch": "Iñárritu · Dinelaris · Berman"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "note": "VistaVision-Format. Cruise total transformiert (Prothesen, 30kg Anzug, Südstaaten-Akzent). Lubezki zurück nach Bardo.",
+      "awards_predicted": [
+        "Bester Hauptdarsteller (Cruise)",
+        "Beste Kamera (Lubezki)",
+        "Beste Regie",
+        "Bester Film"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "title": "Wild Horse Nine",
+      "year": 2026,
+      "director": "Martin McDonagh",
+      "studio": "Searchlight Pictures",
+      "release": "6. Nov. 2026 (Venice-Premiere Sep. 2026)",
+      "runtime": "138 Min.",
+      "language": "Englisch / Spanisch",
+      "genre": [
+        "Schwarz-Komödie",
+        "Politischer Thriller",
+        "CIA"
+      ],
+      "synopsis": "Zwei alternde CIA-Agenten — Chris (John Malkovich) und Lee (Sam Rockwell) — versteckt auf der Osterinsel im Chile-Jahr 1973, schreiben ihre Memoiren über Jahrzehnte von Regime-Kollaboration. Zwischen Schuldbewusstsein, Witz und Pinochet-Coup entwickelt sich McDonaghs dunkelste und reifste Arbeit.",
+      "cast": [
+        "John Malkovich (Chris)",
+        "Sam Rockwell (Lee)",
+        "Steve Buscemi (Mr. J.)",
+        "Parker Posey (Marge)",
+        "Tom Waits",
+        "Mariana di Girolamo"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Martin McDonagh",
+        "Kamera": "Ben Davis",
+        "Schnitt": "Mikkel E.G. Nielsen",
+        "Musik": "Carter Burwell"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "awards_predicted": [
+        "Bester Hauptdarsteller (Malkovich)",
+        "Bester Nebendarsteller (Rockwell)",
+        "Beste Nebendarstellerin (Posey)",
+        "Beste Regie",
+        "Bester Film"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "title": "The Debut",
+      "year": 2026,
+      "director": "Jesse Eisenberg",
+      "studio": "A24",
+      "release": "11. Dez. 2026",
+      "runtime": "122 Min.",
+      "language": "Englisch",
+      "genre": [
+        "Komödie",
+        "Drama",
+        "Musical"
+      ],
+      "synopsis": "Mona Friedman (Julianne Moore), schüchterne Hausfrau, tritt dem Community Theater ihrer Kleinstadt bei — und verwandelt sich unter dem fanatischen Regisseur Jerry (Paul Giamatti) in eine besessene Method-Actrice. Whiplash-Energie für das Amateur-Theater. Eisenbergs mutigstes und bislang bestes Werk.",
+      "cast": [
+        "Julianne Moore (Mona Friedman)",
+        "Paul Giamatti (Jerry)",
+        "Halle Bailey",
+        "Jesse Eisenberg",
+        "Bernadette Peters"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Jesse Eisenberg",
+        "Produktion": "A24"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "note": "Insider-Konsensus: Moores karriere-beste Leistung. Wettquoten: Moore bei 1.10–1.15 — stärkste Actress-Odds seit Jahren.",
+      "awards_predicted": [
+        "Beste Hauptdarstellerin (Moore)",
+        "Bester Nebendarsteller (Giamatti)",
+        "Bester Film",
+        "Bestes Originaldrehbuch"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "title": "The Social Reckoning",
+      "year": 2026,
+      "director": "Aaron Sorkin",
+      "studio": "Sony Pictures",
+      "release": "9. Okt. 2026",
+      "runtime": "137 Min.",
+      "language": "Englisch",
+      "genre": [
+        "Drama",
+        "Politisch",
+        "Investigativ"
+      ],
+      "synopsis": "Frances Haugen (Mikey Madison), Facebook-Whistleblowerin, und WSJ-Journalist Jeff Horwitz (Jeremy Allen White) enthüllen 2021 die Facebook Files. Mark Zuckerberg (Jeremy Strong) wird zur moralisch undurchdringlichen Gegeninstanz. Sorkins spirituelle Fortsetzung zu The Social Network — diesmal als Regisseur ohne Fincher.",
+      "cast": [
+        "Mikey Madison (Frances Haugen)",
+        "Jeremy Strong (Mark Zuckerberg)",
+        "Jeremy Allen White (Jeff Horwitz)",
+        "Wunmi Mosaku",
+        "Bill Burr"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Aaron Sorkin",
+        "Kamera": "Jeff Cronenweth"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "awards_predicted": [
+        "Beste Hauptdarstellerin (Madison)",
+        "Bester Nebendarsteller (Strong)",
+        "Bestes Originaldrehbuch",
+        "Bester Film"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "title": "Dune: Part Three",
+      "year": 2026,
+      "director": "Denis Villeneuve",
+      "studio": "Warner Bros.",
+      "release": "18. Dez. 2026",
+      "runtime": "165 Min.",
+      "language": "Englisch",
+      "genre": [
+        "Sci-Fi",
+        "Epos",
+        "Politisches Drama"
+      ],
+      "synopsis": "Paul Atreides (Chalamet) ist Kaiser des bekannten Universums — und erkennt, dass er eine apokalyptische Jihad ausgelöst hat, die er nicht mehr aufhalten kann. Villeneuve adaptiert Frank Herberts »Dune Messiah« als tragischen Fall eines Messias, der seine Prophezeiung nicht entkommen kann.",
+      "cast": [
+        "Timothée Chalamet (Paul Atreides)",
+        "Zendaya (Chani)",
+        "Florence Pugh (Irulan)",
+        "Anya Taylor-Joy (Alia)",
+        "Javier Bardem (Stilgar)",
+        "Robert Pattinson (Scytale)",
+        "Jason Momoa (Hayt)"
+      ],
+      "crew": {
+        "Regie": "Denis Villeneuve",
+        "Kamera": "Linus Sandgren",
+        "Schnitt": "Joe Walker",
+        "Musik": "Hans Zimmer"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "awards_predicted": [
+        "Bester Film",
+        "Beste Kamera",
+        "Beste Filmmusik",
+        "Bester Schnitt",
+        "Beste Visuellen Effekte",
+        "Bestes Szenenbild"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "title": "Disclosure Day",
+      "year": 2026,
+      "director": "Steven Spielberg",
+      "studio": "Universal Pictures",
+      "release": "Herbst 2026",
+      "runtime": "TBD",
+      "language": "Englisch",
+      "genre": [
+        "Polit-Thriller",
+        "Drama"
+      ],
+      "synopsis": "Noch keine offiziellen Details. Emily Blunt in einem Spielberg-Drama mit politischem Subtext — vermutlich ein investigativer Thriller in der Tradition von Munich und Pentagon Papers.",
+      "cast": [
+        "Emily Blunt"
+      ],
+      "crew": {
+        "Regie": "Steven Spielberg"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "awards_predicted": [
+        "Beste Hauptdarstellerin (Blunt)",
+        "Bester Film"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "title": "Springsteen: Deliver Me from Nowhere",
+      "year": 2026,
+      "director": "Scott Cooper",
+      "studio": "TBD",
+      "release": "Herbst 2026",
+      "runtime": "TBD",
+      "language": "Englisch",
+      "genre": [
+        "Biopic",
+        "Musik"
+      ],
+      "synopsis": "Die Geschichte der Entstehung von Bruce Springsteens legendärem Album »Nebraska« (1982) — wie Springsteen sich von der Rockstar-Welt isolierte und in seinem Schlafzimmer mit einem 4-Track-Kassettendeck sein persönlichstes Werk aufnahm.",
+      "cast": [
+        "Jeremy Allen White (Bruce Springsteen)"
+      ],
+      "crew": {
+        "Regie": "Scott Cooper"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "awards_predicted": [
+        "Bester Hauptdarsteller (White)"
+      ],
+      "status": "upcoming"
+    },
+    {
+      "title": "KPop Demon Hunters",
+      "year": 2026,
+      "director": "Maggie Kang & Chris Appelhans",
+      "studio": "Sony Pictures Animation",
+      "release": "Bereits erschienen (Sommer 2026)",
+      "runtime": "101 Min.",
+      "language": "Englisch / Koreanisch",
+      "genre": [
+        "Animation",
+        "Musical",
+        "Fantasy"
+      ],
+      "synopsis": "Eine K-Pop-Girlgroup entdeckt, dass ihre Musik Dämonen bannt — und beginnt eine Doppelexistenz als Superstars und Geisterjägerinnen. Animationstechnisch revolutionär: hybride Mischung aus K-Pop-MV-Ästhetik und westlicher Animation.",
+      "cast": [
+        "Ahn Hyo-seop",
+        "Han So-hee",
+        "Chaeyeon"
+      ],
+      "crew": {
+        "Regie": "Maggie Kang & Chris Appelhans",
+        "Musik": "Ian Eisendrath · Ejae · Teddy"
+      },
+      "rt_critics": 82,
+      "rt_audience": 91,
+      "imdb": 7.4,
+      "metacritic": null,
+      "note": "98th Oscars Gewinner: Bester Animationsfilm + Bester Song (»Golden«)",
+      "awards_predicted": [
+        "Bester Animationsfilm",
+        "Bester Originalsong"
+      ],
+      "status": "released"
+    },
+    {
+      "title": "Hope",
+      "year": 2026,
+      "director": "Na Hong-jin",
+      "studio": "TBD",
+      "release": "Cannes 2026 · Herbst",
+      "runtime": "TBD",
+      "language": "Koreanisch",
+      "genre": [
+        "Horror",
+        "Thriller",
+        "Arthouse"
+      ],
+      "synopsis": "Na Hong-jins erstes koreanisches Werk nach seinem The Wailing-Meisterwerk. Noch wenige Details — aber der erste Trailer aus Cannes sorgte für Aufsehen: düsterer Arthouse-Horror mit verwebter Mythologie.",
+      "cast": [
+        "TBD"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Na Hong-jin"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "festival": "Cannes 2026 — Hauptwettbewerb",
+      "awards_predicted": [
+        "Bester Internationaler Film"
+      ],
+      "status": "festival"
+    },
+    {
+      "title": "Bitter Christmas",
+      "year": 2026,
+      "director": "Pedro Almodóvar",
+      "studio": "El Deseo",
+      "release": "Cannes 2026 (QP) · Herbst",
+      "runtime": "TBD",
+      "language": "Spanisch",
+      "genre": [
+        "Drama",
+        "Familienfilm"
+      ],
+      "synopsis": "Almodóvars neuestes Werk — eine Weihnachtsgeschichte mit dem gewohnten emotionalen Überschwang des spanischen Auteurs. Wärme, Ironie und weibliche Stärke im Mittelpunkt.",
+      "cast": [
+        "Leonardo Sbaraglia",
+        "Barbara Lennie"
+      ],
+      "crew": {
+        "Regie & Drehbuch": "Pedro Almodóvar"
+      },
+      "rt_critics": null,
+      "rt_audience": null,
+      "imdb": null,
+      "metacritic": null,
+      "festival": "Cannes 2026 — Quinzaine Parallèle",
+      "awards_predicted": [
+        "Bester Internationaler Film"
+      ],
+      "status": "festival"
     }
   ]
 }

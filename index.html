@@ -195,6 +195,53 @@
     .tg-odds  { background: rgba(50,80,140,0.10); color: var(--blue); }
     /* ─── FOOTER ─────────────────────────────────────────────── */
     .site-footer { text-align: center; padding: 30px 20px; font-size: 11px; color: var(--text3); border-top: 1px solid #D0C0A0; margin-top: 30px; }
+  
+    /* ─── WINNERS 2026 ──────────────────────────────────────────── */
+    .w26-cat { margin-bottom:8px; border-radius:var(--r); overflow:hidden; box-shadow:var(--shadow); }
+    .w26-hd { background:var(--card); border:1px solid var(--card-b); padding:11px 16px; display:flex; justify-content:space-between; align-items:center; cursor:pointer; border-radius:var(--r); }
+    .w26-hd.open { border-radius:var(--r) var(--r) 0 0; border-bottom:none; }
+    .w26-hd:hover { background:#FFF8EE; }
+    .w26-winner-badge { font-size:10px; padding:2px 9px; border-radius:20px; background:rgba(42,106,74,0.12); color:#2A6A4A; font-weight:600; }
+    .w26-body { background:var(--card); border:1px solid var(--card-b); border-top:none; border-radius:0 0 var(--r) var(--r); overflow:hidden; }
+    .w26-row { display:flex; align-items:center; padding:9px 16px; border-bottom:1px solid #F0E8D8; }
+    .w26-row:last-child { border-bottom:none; }
+    .w26-row.won { background:rgba(42,106,74,0.06); }
+    .w26-star { font-size:14px; width:24px; flex-shrink:0; }
+    .w26-inf { flex:1; margin:0 8px; }
+    .w26-nm { font-size:13px; font-weight:600; color:var(--text); }
+    .w26-nm.won { color:#2A6A4A; }
+    .w26-ctxt { font-size:10px; color:var(--text2); }
+    /* ─── FILME ──────────────────────────────────────────────────── */
+    .filme-grid-inner { display:grid; grid-template-columns:1fr 1fr; gap:14px; }
+    @media(max-width:700px) { .filme-grid-inner { grid-template-columns:1fr; } }
+    .film-card { padding:0; overflow:hidden; }
+    .film-top { padding:14px 16px 10px; border-bottom:1px solid #F0E8D8; }
+    .film-badges { display:flex; flex-wrap:wrap; gap:4px; margin-bottom:8px; }
+    .fbadge { font-size:9px; padding:2px 7px; border-radius:20px; font-weight:500; }
+    .fb-rel { background:rgba(42,106,74,0.1); color:#2A6A4A; }
+    .fb-festi { background:rgba(200,164,76,0.12); color:var(--gold-d); }
+    .fb-up { background:#F0E8D8; color:var(--text2); }
+    .film-title { font-family:'Playfair Display',serif; font-size:17px; font-weight:700; color:var(--text); margin-bottom:2px; }
+    .film-dir { font-size:11px; color:var(--text2); margin-bottom:4px; }
+    .film-synopsis { font-size:11px; color:var(--text2); line-height:1.55; margin-bottom:8px; }
+    .film-scores { display:flex; gap:8px; margin-bottom:8px; }
+    .score-pill { font-size:11px; font-weight:600; padding:3px 9px; border-radius:20px; }
+    .sc-rt-hi { background:rgba(42,106,74,0.12); color:#2A6A4A; }
+    .sc-rt-mid { background:rgba(200,140,20,0.12); color:#8A6210; }
+    .sc-rt-lo { background:rgba(139,26,26,0.12); color:#8B1A1A; }
+    .sc-imdb { background:rgba(200,164,76,0.12); color:var(--gold-d); }
+    .sc-tbd { background:#F0E8D8; color:var(--text3); }
+    .film-meta { display:flex; gap:10px; flex-wrap:wrap; }
+    .film-meta-item { font-size:10px; color:var(--text3); }
+    .film-bottom { padding:10px 16px; }
+    .film-cast { font-size:11px; color:var(--text2); margin-bottom:5px; }
+    .film-cast strong { color:var(--text); }
+    .film-crew-row { display:flex; gap:6px; flex-wrap:wrap; margin-bottom:5px; }
+    .crew-tag { font-size:9px; padding:2px 7px; border-radius:20px; background:#F0E8D8; color:var(--text2); }
+    .film-nom-row { display:flex; flex-wrap:wrap; gap:3px; margin-top:5px; }
+    .nom-tag { font-size:9px; padding:2px 7px; border-radius:20px; background:rgba(200,164,76,0.10); color:var(--gold-d); }
+    .film-note { font-size:10px; color:var(--text3); font-style:italic; margin-top:5px; }
+
   </style>
 </head>
 <body>
@@ -238,6 +285,8 @@
     <button class="nav-btn" onclick="show('wett',this)">Wettquoten</button>
     <button class="nav-btn" onclick="show('radar',this)">Radar</button>
     <button class="nav-btn" onclick="show('news',this)">Aktuelles</button>
+    <button class="nav-btn" onclick="show('w26',this)">Gewinner 2026</button>
+    <button class="nav-btn" onclick="show('filme',this)">Filme</button>
   </div>
 </nav>
 
@@ -308,6 +357,29 @@
     </div>
     <div id="news-list"></div>
   </section>
+
+  <!-- GEWINNER 2026 -->
+  <section class="section" id="sec-w26">
+    <div class="sec-head">
+      <div class="sec-title">Gewinner 2026 — 98. Academy Awards</div>
+      <div class="sec-sub">15. März 2026 · Dolby Theatre, Los Angeles · Host: Conan O'Brien · One Battle After Another (6), Sinners (4), Frankenstein (3)</div>
+    </div>
+    <div class="update-banner" style="background:rgba(30,100,50,0.08);border-color:rgba(30,100,50,0.25);">
+      <div class="u-dot" style="background:#2A6A4A"></div>
+      One Battle After Another: 6 Oscars (Bester Film, Regie, Adapt. Drehbuch, Nebendarsteller, Schnitt, Casting) &nbsp;·&nbsp; Sinners: 4 Oscars &nbsp;·&nbsp; Frankenstein: 3 Oscars
+    </div>
+    <div id="w26-list"></div>
+  </section>
+
+  <!-- FILME -->
+  <section class="section" id="sec-filme">
+    <div class="sec-head">
+      <div class="sec-title">Filme 2026 — Die Oscar-Kandidaten</div>
+      <div class="sec-sub">Nominierte & prognostizierte Kandidaten für die 99. Academy Awards · Mit Inhalt, Besetzung, Crew und Kritik-Scores</div>
+    </div>
+    <div id="filme-grid"></div>
+  </section>
+
 </main>
 
 <footer class="site-footer">
@@ -354,6 +426,8 @@ function buildAll() {
   buildOddsCats();
   buildRadar();
   buildNews();
+buildW26();
+buildFilme();
 }
 
 // ─── SECTION NAV ─────────────────────────────────────────────────
@@ -552,6 +626,99 @@ function buildNews() {
     el.appendChild(div);
   });
 }
+
+// ─── WINNERS 2026 ─────────────────────────────────────────────────
+function buildW26() {
+  const el = document.getElementById('w26-list');
+  if (!D.winners2026) return;
+  D.winners2026.forEach((cat, i) => {
+    const div = document.createElement('div');
+    div.className = 'w26-cat';
+    const open = i === 0;
+    div.innerHTML = `<div class="w26-hd${open?' open':''}" onclick="togW26(this)">
+      <div style="display:flex;align-items:center;gap:9px">
+        <span style="font-size:16px">${cat.emoji}</span>
+        <span style="font-size:13px;font-weight:600;color:var(--text)">${cat.de}</span>
+      </div>
+      <div style="display:flex;align-items:center;gap:10px">
+        <span class="w26-winner-badge">🏆 ${cat.winner}</span>
+        <span class="chev${open?' o':''}">▾</span>
+      </div>
+    </div>
+    <div class="w26-body" style="display:${open?'block':'none'}">
+      ${cat.noms.map(n => `<div class="w26-row${n.win?' won':''}">
+        <span class="w26-star">${n.win?'🏆':'  '}</span>
+        <div class="w26-inf">
+          <div class="w26-nm${n.win?' won':''}">${n.n}</div>
+          <div class="w26-ctxt">${n.c}</div>
+        </div>
+      </div>`).join('')}
+      ${cat.note ? `<div style="padding:8px 16px;font-size:10px;color:var(--text3);font-style:italic;border-top:1px solid #F0E8D8">${cat.note}</div>` : ''}
+    </div>`;
+    el.appendChild(div);
+  });
+}
+
+function togW26(hd) {
+  const body = hd.nextElementSibling;
+  const chev = hd.querySelector('.chev');
+  const op = body.style.display !== 'none';
+  body.style.display = op ? 'none' : 'block';
+  hd.classList.toggle('open', !op);
+  chev.classList.toggle('o', !op);
+}
+
+// ─── FILME ────────────────────────────────────────────────────────
+function buildFilme() {
+  const el = document.getElementById('filme-grid');
+  if (!D.films) return;
+  const grid = document.createElement('div');
+  grid.className = 'filme-grid-inner';
+  D.films.forEach(f => {
+    const statusMap = { released:'Erschienen', cannes_winner:'Palme d\'Or', festival:'Festival', upcoming:'Upcoming' };
+    const statusClass = { released:'fb-rel', cannes_winner:'fb-festi', festival:'fb-festi', upcoming:'fb-up' };
+    const rtScore = f.rt_critics;
+    const rtClass = rtScore == null ? 'sc-tbd' : rtScore >= 70 ? 'sc-rt-hi' : rtScore >= 50 ? 'sc-rt-mid' : 'sc-rt-lo';
+    const rtLabel = rtScore == null ? 'RT: TBD' : `RT: ${rtScore}%`;
+    const audienceLabel = f.rt_audience ? `👥 ${f.rt_audience}%` : null;
+    const imdbLabel = f.imdb ? `IMDb: ${f.imdb}` : null;
+    const div = document.createElement('div');
+    div.className = 'card film-card';
+    div.innerHTML = `<div class="film-top">
+      <div class="film-badges">
+        <span class="fbadge ${statusClass[f.status]}">${statusMap[f.status]}</span>
+        ${f.release ? `<span class="fbadge fb-up">${f.release}</span>` : ''}
+        ${f.festival ? `<span class="fbadge fb-festi">${f.festival.split('—')[0].trim()}</span>` : ''}
+      </div>
+      <div class="film-title">${f.title}</div>
+      <div class="film-dir">${f.director} · ${f.studio}</div>
+      <div class="film-synopsis">${f.synopsis}</div>
+      <div class="film-scores">
+        <span class="score-pill ${rtClass}">${rtLabel}</span>
+        ${audienceLabel ? `<span class="score-pill sc-rt-hi">${audienceLabel}</span>` : ''}
+        ${imdbLabel ? `<span class="score-pill sc-imdb">${imdbLabel}</span>` : ''}
+        ${f.metacritic ? `<span class="score-pill sc-imdb">MC: ${f.metacritic}</span>` : ''}
+      </div>
+      <div class="film-meta">
+        ${f.runtime ? `<span class="film-meta-item">⏱ ${f.runtime}</span>` : ''}
+        ${f.language ? `<span class="film-meta-item">🌐 ${f.language}</span>` : ''}
+        ${f.budget ? `<span class="film-meta-item">💰 ${f.budget}</span>` : ''}
+        ${f.boxoffice ? `<span class="film-meta-item">🎟 ${f.boxoffice}</span>` : ''}
+      </div>
+    </div>
+    <div class="film-bottom">
+      <div class="film-cast"><strong>Darsteller:</strong> ${(f.cast || []).slice(0,5).join(' · ')}</div>
+      <div class="film-crew-row">
+        ${Object.entries(f.crew || {}).map(([k,v]) => `<span class="crew-tag"><b>${k}:</b> ${v}</span>`).join('')}
+      </div>
+      ${f.awards_predicted && f.awards_predicted.length ? `<div class="film-nom-row">${f.awards_predicted.map(a => `<span class="nom-tag">🎯 ${a}</span>`).join('')}</div>` : ''}
+      ${f.note ? `<div class="film-note">${f.note}</div>` : ''}
+    </div>`;
+    grid.appendChild(div);
+  });
+  el.appendChild(grid);
+}
+
 </script>
 </body>
 </html>
